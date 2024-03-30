@@ -2,7 +2,8 @@ import './About.css';
 
 function About() {
   return (
-    <div>About</div>
+    <div>About tes
+      t test</div>
   );
 }
 
