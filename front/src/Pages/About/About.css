@@ -62,13 +62,6 @@
     margin-left: 114px;
 }
 
-.pic1 {
-    position: absolute;
-    background-color: transparent !important;
-    z-index: 1;
-    top: 100%;
-    left: 12%;
-  }
   
 .text h1 , .text p{
     color: #FFFFFF;
@@ -123,13 +116,6 @@
     background-color: transparent;
 }
 
-.pic2{
-    position:absolute;
-    background-color: transparent !important;
-    z-index: 1; 
-    top:155%;
-    left:76%;
-}
 .recpic2{
     margin-left: 60px;
     margin-right: 100px;
