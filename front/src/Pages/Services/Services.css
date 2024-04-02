@@ -1,0 +1,8 @@
+#serv{
+    display: grid;
+    row-gap: 8%;
+    background-color: rgba(1, 30, 74, 1);
+}
+#serv1{
+    padding-bottom: 7%;
+}
