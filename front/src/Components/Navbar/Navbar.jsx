@@ -1,9 +1,13 @@
-import './Navbar.css';
+import Navbar1 from "./Navbar1/Navbar1"
+import './Navbar.css'
+
 
 function Navbar() {
-  return (
-    <div>Navbar</div>
-  );
+return(
+  <div>
+    <Navbar1/>
+  </div>
+)
 }
 
-export default Navbar;
+export default Navbar
