@@ -22,7 +22,19 @@ import c2 from './assets/circle2.png'
 
 function About(){
     
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const images = [rectangle147, rectangle147, rectangle147, rectangle147, rectangle147];
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 2000);
+
+        return () => clearInterval(intervalId);
+    }, [images.length]);
+
     const [hovered, setHovered] = useState(null);
+
     return(
         <>
           
@@ -108,6 +120,88 @@ function About(){
                 </div>
             </div>
            <br/><br/><br/><br/><br/>
+           <h2 style={{ fontFamily: 'roboto' }}>Bureau éxécutif</h2>
+           {/*first row of executive board*/}
+           <div className='positions1'>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+           </div>
+           {/*second row of executive board*/}
+           <br/><br/><br/><br/>
+           <div className='positions1'>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+           </div>
+           {/*third row*/}
+           <br/><br/><br/><br/>
+           <div className='positions1'>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+           </div>
+           <br/><br/><br/><br/><br/>
+           <h2 style={{ fontFamily: 'roboto' }}>Galeries</h2>
+           <div className='galerryslider'>
+                {images.map((img, index) => (
+                    <img
+                        key={index}
+                        src={img}
+                        alt={`Slide ${index + 1}`}
+                        style={{ display: index === currentImageIndex ? 'block' : 'none' }}
+                    />
+                ))}
+            </div>
+            <br /><br /><br />
+            <div className='ponct'>
+            {images.map((_, index) => (
+            <img
+            key={index}
+            src={index === currentImageIndex ? c2 : c1}
+            alt={`Circle ${index + 1}`}
+            />
+            ))}
+            </div>
         </>
     );
 }
