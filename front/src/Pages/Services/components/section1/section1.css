@@ -11,7 +11,7 @@
 #section12{
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 6%;
 }
 #log img{
     padding-left: 23%;
@@ -29,7 +29,7 @@
     text-decoration: underline rgba(1, 30, 74, 1);
     font-family: montserrat;
     color: rgba(255, 255, 255, 1);
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
     line-height: 48.76px;
     margin: 5.5% 5.5% 2% 5.5%;
