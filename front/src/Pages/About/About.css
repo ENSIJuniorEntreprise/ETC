@@ -132,50 +132,9 @@ h2{
     flex-direction: row;
     
 }
-.img1:hover,.img2:hover,.img3:hover {
-    background-color: #16A2C5;
-}
+
 .values div img {
     transition: opacity 0.5s ease;
-}
-
-.values div:hover img {
-    opacity: 0;
-}
-
-.values div h5.addedp {
-    display: none;
-}
-
-.values div.img1:hover h5.addedp, .values div.img2:hover h5.addedp {
-    display: block;
-    background-color: #16A2C5;
-    margin-top: 10px;
-}
-.values div.img3:hover h5.addedp {
-    display: block;
-    background-color: #16A2C5;
-    margin-top: 20px;
-}
-.values div.img1:hover p,.values div.img2:hover p {
-    margin-top: -260px;
-    display: block;
-    background-color: #16A2C5;
-}
-.values div.img3:hover p {
-    margin-top: -240px;
-    display: block;
-    background-color: #16A2C5;
-}
-.values div.img1:hover , .values div.img2:hover , .values div.img3:hover{
-    padding-left: 20px;
-   padding-right: 20px;
-}
-
-.addedp{
-    font-size: 32px;
-    line-height: 39.01px;
-    color:#FFFFFF;
 }
 .img1 p, .img2 p, .img3 p{
     display: flex;
@@ -185,6 +144,7 @@ h2{
     line-height: 58.51px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
     
 }
 .img1,.img2,.img3{
@@ -204,20 +164,20 @@ h2{
 .img3{
     margin-left: 80px;
     margin-right: 80px;
-    padding-left: 40px;
-   padding-right: 40px;
+    padding-left: 50px;
+   padding-right: 50px;
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
 .img3 img{
     margin-left: 25px;
-    width:80%;
+    width:200px;
     align-items: center;
 }
 .img3 p{
     margin-top:50px;
-    margin-bottom: -15px;
+    margin-bottom: -25px;
 }
 .img2 p{
     margin-top:-3px;
@@ -227,6 +187,55 @@ h2{
     margin-top:10px;
     margin-bottom: -1px;
 }
+.titlev{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 58.51px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.addedp{
+    font-weight:normal;
+    font-size: 32px;
+    line-height: 39.01px;
+    color:#FFFFFF;
+    margin: 0;
+}
+.img1:hover,.img2:hover,.img3:hover {
+    background-color: #16A2C5;
+}
+.values div.img1:hover h5.titlev, .values div.img2:hover h5.titlev , .values div.img3:hover h5.titlev {
+    background-color: #16A2C5;
+}
+.values div.img1:hover h6.addedp, .values div.img2:hover h6.addedp , .values div.img3:hover h6.addedp {
+    background-color: #16A2C5;
+}
+.values h5,
+.values h6 {
+  display: none;
+}
+.values div:hover h5,
+.values div:hover h6 {
+  display: block;
+  margin-top: 10px;
+}
+.values div.img3:hover h5 {
+  display: block;
+  margin-top: -40px;
+}
+.values div:hover img,
+.values div:hover p {
+  display: none;
+}
+.values div.img1:hover , .values div.img2:hover , .values div.img3:hover {
+    padding-left: 30px;
+   padding-right: 30px;
+}
+
+
 
 .act1 img:hover, .act2 img:hover , .act3 img:hover {
     background-color: #16A2C5;
