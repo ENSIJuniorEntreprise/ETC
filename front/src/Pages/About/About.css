@@ -1,6 +1,7 @@
 *{
     background-color: #011E4A;
     font-family: "Montserrat";
+   
 }
 .topp img{
     width : 100%;
@@ -27,7 +28,7 @@
     z-index: 1; 
 }
 .recapropos h1{
-     right:65%;
+     right:64%;
      font-size: 70px;
      Line-height: 85.33px;
 }
@@ -38,12 +39,12 @@
     z-index: 1;
     width: 23%; 
     top: 108%; 
-    right: 64%; 
+    right: 63%; 
 }
 
 .recapropos p{
-    right:17%;
-    left:13%;
+    right:16%;
+    left:14%;
     top:108%;
     font-size: 35px;
     line-height: 43.88px;
@@ -59,7 +60,7 @@
     background-repeat: no-repeat;
     overflow: hidden;
     background-color: transparent;
-    margin-left: 114px;
+    margin-left: 160px;
 }
 
   
@@ -77,18 +78,18 @@
     font-size: 36px;
     line-height: 43.88px;
     padding-left: 30px;
-    padding-right: 30px;
+    /*padding-right: 5px;*/
 }
 .text{
     
     margin-left: 60px;
-    margin-right: 100px;
+    margin-right: 156px;
     border: 5px solid #16A2C5;
     border-radius: 15px;
     padding: 0px 10px 0px 10px;
 }
 .text2{
-    margin-left: 114px;
+    margin-left: 160px;
     border: 5px solid #16A2C5;
     border-radius: 15px;
     padding: 0px 10px 0px 10px;
@@ -106,7 +107,7 @@
     font-size: 36px;
     line-height: 43.88px;
     padding-left: 30px;
-    padding-right: 30px;
+    /*padding-right: 30px;*/
 }
 .rect3{
     position: relative;
@@ -118,17 +119,18 @@
 
 .recpic2{
     margin-left: 60px;
-    margin-right: 100px;
+    margin-right: 156px;
 }
 h2{
     color:#FC9601;
     font-size: 80px;
     line-height: 93.75px;
-    margin-left: 114px;
+    margin-left: 160px;
 }
 .values{
     display: flex;
     flex-direction: row;
+    
 }
 .img1:hover,.img2:hover,.img3:hover {
     background-color: #16A2C5;
@@ -190,32 +192,32 @@ h2{
     border-radius: 12px;
 }
 .img1{
-    margin-left: 50px;
-    padding-left: 50px;
-   padding-right: 50px;
+    margin-left: 120px;
+    padding-left: 40px;
+   padding-right: 40px;
 }
 .img2{
-    margin-left: 120px;
-    padding-left: 50px;
-   padding-right: 50px;
+    margin-left: 80px;
+    padding-left: 40px;
+   padding-right: 40px;
 }
 .img3{
-    margin-left: 120px;
-    margin-right: 50px;
-    padding-left: 50px;
-   padding-right: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 40px;
+   padding-right: 40px;
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
 .img3 img{
-    margin-left: 17px;
-    width:85%;
+    margin-left: 25px;
+    width:80%;
     align-items: center;
 }
 .img3 p{
-    margin-top:20px;
-    margin-bottom: -20px;
+    margin-top:50px;
+    margin-bottom: -15px;
 }
 .img2 p{
     margin-top:-3px;
@@ -232,7 +234,7 @@ h2{
 .activities{
     display: flex;
     flex-direction: column;
-    margin-left: 114px;
+    margin-left: 160px;
 }
 .act1 img{
     width:66%;
@@ -256,7 +258,7 @@ h2{
 }
 .description{
     margin-left: 50px;
-    margin-right: 100px;
+    margin-right: 156px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -287,6 +289,8 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 60px;
 }
 .position h3, .position h4{
   font-size: 32px;
@@ -308,15 +312,21 @@ h2{
 .galerryslider {
   display: flex;
   justify-content: center;
+  /*margin-left: 60px;
+  margin-right: 50px;*/
   
 }
 .galerryslider img{
+    margin-top: -40px;
   border: 5px solid #16A2C5;
   border-radius: 20px;
+  width:60%;
 }
 .ponct{
+    margin-top: -45px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 30px;
+  
 }
