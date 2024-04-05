@@ -283,7 +283,7 @@ h2{
 }
 .description h3{
     color : #FFFFFF;
-    font-size: 52px;
+    font-size: 39px;
     line-height: 63.39px;
 }
 .description p{
@@ -292,6 +292,7 @@ h2{
     line-height: 39.01px;
 }
 .line1{
+    margin-top: -2px;
     border-top: 5px solid #16A2C5;
     width:97%;
 }
