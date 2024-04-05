@@ -1,0 +1,159 @@
+.footer{
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr;
+    background-color: #011E4A;
+    grid-gap: 40px;
+    border-top: 5px solid  #16A2C5 ;
+
+}
+.containerr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rm;
+
+
+
+}
+.pages1{
+    display: grid;
+    grid-template-rows: (5,auto) ;
+    gap: 35px;
+
+
+}
+.pages{
+    color:
+    #16A2C5;
+    font-size: 30px;
+
+    text-decoration: underline;
+    text-decoration-color: 
+    #16A2C5;
+    text-decoration-thickness: 2px;
+    font-family: Montserrat;
+    margin-bottom: 65px;
+}
+.txt{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.contact11{
+    color: 
+    #16A2C5;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: 
+    #16A2C5;
+    text-decoration-thickness: 2px;
+    font-family: Montserrat;
+}
+.contact1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    margin-right: 120px;
+    gap: 5px;
+
+}
+.contact2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.im{
+    height: 250px;
+    width: 400px;
+}
+.imgg{
+    width: 61px;
+    height: 61px;
+}
+.txtt{
+    color: white;
+    font-size: 20px;
+    
+
+}
+.txttt{
+    color: white;
+    font-size: 20px;
+    white-space: wrap;
+    max-width: 200px;
+}
+.a{
+    display: flex;
+    align-items: center;
+}
+.aa{
+    color: white;
+    font-family: Ink Free;
+    font-size: 30px;
+}
+.aaaa{
+    color: 
+    #16A2C5;
+    font-size: 30px;
+    font-family: Ink Free;
+}
+.aaa{
+    color: #FC9601;
+    font-size: 30px;
+    font-family: Ink Free;
+}
+.b{
+    margin-left:120px;
+    margin-top: 30px;
+}
+.containerrr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rs{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 200px;
+}
+.rs1{
+    width: 61px;
+    height: 61px;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+
+}
+.sub{
+    background-color: 
+    #16A2C5;
+    color: 
+    #011E4A;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    width: 185px;
+    height: 55px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.inp{
+    width: 398px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 20px;
+
+}
+.etc{
+    text-align: center;
+    font-family: 
+    Roboto;
+    font-size: 25px;
+    color: white;
+}
+
