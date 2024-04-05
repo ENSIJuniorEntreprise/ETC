@@ -117,9 +117,9 @@ function About(){
             </div>
                 <div className='description'>
                     <img src={hovered === 'act2' ? act2 : hovered === 'act3' ? act3 : act1} />
-                    <h3>{hovered === 'act2' ? 'Evènementiel' : hovered === 'act3' ? 'Communication' : 'Projet'}</h3>
+                    <h3>{hovered === 'act2' ? 'Evènementiel' : hovered === 'act3' ? 'Dévelopement des ressources humaines' : 'Projet'}</h3>
                     <div className='line1'></div>
-                    <p>{hovered === 'act3' ? 'Communication ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : hovered === 'act2' ? 'Evénementiel ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : 'Projet ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.'}</p>
+                    <p>{hovered === 'act3' ? 'Dévelopement des ressources humaines ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : hovered === 'act2' ? 'Evénementiel ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : 'Projet ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.'}</p>
                 </div>
             </div>
            <br/><br/><br/><br/><br/>
