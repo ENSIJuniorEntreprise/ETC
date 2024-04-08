@@ -17,6 +17,7 @@ import act2w from './assets/act2w.png'
 import act3w from './assets/act3w.png'
 import c1 from './assets/circle1.png'
 import c2 from './assets/circle2.png'
+import Topage from './topage';
 
 
 
@@ -38,26 +39,17 @@ function About(){
     return(
         <>
           
-          <div className='topp'>
-               <img src={rectangle69} />
-
-          </div>
-    
-          <div className='recapropos'>
-               <div className='bg1'>
-                    <img src={rectangle1} alt="" />
-               </div>
-               <h1>A propos</h1>
-               <div className='line'></div>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </div> 
+            <Topage/>
             <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            
            <div className='vispic'>
                 <div className='recpic'>
                     <div className='rect2'><img src={rectangle2} alt="" /></div>
                 </div>
                 <div className='text'>
+                    <br/><br/>
                     <h1 style={{ fontFamily: 'roboto' }}>Notre vision</h1>
+                    <br/><br/>
                     <p>Lorem ipsum dolor sit amet, consectetur
                          adipiscing elit, sed do eiusmod tempor 
                          incididunt ut labore et dolore .</p>
@@ -66,7 +58,9 @@ function About(){
            <br/><br/><br/>
            <div className='vispic'>
                 <div className='text2'>
+                    <br/><br/>
                     <h1 style={{ fontFamily: 'roboto' }}>Notre mission</h1>
+                    <br/><br/>
                     <p>Lorem ipsum dolor sit amet, consectetur
                          adipiscing elit, sed do eiusmod tempor 
                          incididunt ut labore et dolore .</p>
@@ -77,6 +71,7 @@ function About(){
            </div>
            <br/><br/><br/><br/><br/>
            <h2 style={{ fontFamily: 'roboto' }}>Nos Valeurs</h2>
+           <br/><br/><br/><br/>
            <div className='values'>
                 <div className='img1'>
                     <img src={pic3} alt="" />
@@ -99,6 +94,7 @@ function About(){
            </div>
            <br/><br/><br/><br/><br/>
            <h2 style={{ fontFamily: 'roboto' }}>Nos activités</h2>
+           <br/><br/><br/><br/>
            <div className='nosactivities'>
            <div className='activities'>
                 <div className='act1' onMouseEnter={() => setHovered('act1')} onMouseLeave={() => setHovered(null)}>
@@ -116,75 +112,80 @@ function About(){
                 </div>
             </div>
                 <div className='description'>
-                    <img src={hovered === 'act2' ? act2 : hovered === 'act3' ? act3 : act1} />
-                    <h3>{hovered === 'act2' ? 'Evènementiel' : hovered === 'act3' ? 'Développement des ressources humaines' : 'Projet'}</h3>
-                    <div className='line1'></div>
+                    <img src={hovered === 'act2' ? act2 : hovered === 'act3' ? act3 : act1} /><br/>
+                    <h3>{hovered === 'act2' ? 'Evènementiel' : hovered === 'act3' ? 'Développement des ressources humaines' : 'Projet'}</h3><br/>
+                    <div className='line1'></div><br/>
                     <p>{hovered === 'act3' ? 'Développement des ressources humaines ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : hovered === 'act2' ? 'Evénementiel ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : 'Projet ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.'}</p>
                 </div>
             </div>
            <br/><br/><br/><br/><br/>
            <h2 style={{ fontFamily: 'roboto' }}>Bureau éxécutif</h2>
+           <br/><br/><br/><br/>
            {/*first row of executive board*/}
+           
            <div className='positions1'>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
-           </div>
+        </div>
            {/*second row of executive board*/}
            <br/><br/><br/><br/>
+           
            <div className='positions1'>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
            </div>
            {/*third row*/}
            <br/><br/><br/><br/>
+           
            <div className='positions1'>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} />
-                    <h3>Mohamed islam</h3>
-                    <h4>sakouhi</h4>
-                    <p>Président</p>
+                    <img src={rectangle81} /><br/><br/>
+                    <h3>Mohamed islam</h3><br/><br/>
+                    <h4>sakouhi</h4><br/><br/>
+                    <p>Président</p><br/><br/>
                 </div>
            </div>
            <br/><br/><br/><br/><br/>
            <h2 style={{ fontFamily: 'roboto' }}>Galeries</h2>
+           <br/><br/><br/><br/>
            <div className='galerryslider'>
                 {images.map((img, index) => (
                     <img
@@ -204,7 +205,8 @@ function About(){
             alt={`Circle ${index + 1}`}
             />
             ))}
-            </div>
+        </div>
+            
         </>
     );
 }
