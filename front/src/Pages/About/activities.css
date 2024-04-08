@@ -1,0 +1,59 @@
+/*for activities*/
+.act1 img:hover, .act2 img:hover , .act3 img:hover {
+    background-color: #16A2C5;
+}
+.activities{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+}
+.act1 img{
+    width:66%;
+    margin-bottom: 30px;
+    
+}
+.act1 img, .act3 img{
+    border: 5px solid #16A2C5;
+    border-radius: 12px;
+    padding: 30px 30px 30px 30px;
+}
+.act2 img{
+    border: 5px solid #16A2C5;
+    border-radius: 12px;
+    padding: 30px 40px 30px 30px;
+    margin-bottom: 30px;
+}
+.nosactivities{
+    display: flex;
+    flex-direction: row;
+}
+.description{
+    margin-left: 50px;
+    margin-right: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #16A2C5;
+    border-radius: 12px;
+    padding: 30px 30px 30px 30px;
+
+}
+.description img{
+    width:20%;
+}
+.description h3{
+    color : #FFFFFF;
+    font-size: 39px;
+    line-height: 63.39px;
+}
+.description p{
+    color : #FFFFFF;
+    font-size: 32px;
+    line-height: 39.01px;
+}
+.line1{
+    margin-top: -2px;
+    border-top: 5px solid #16A2C5;
+    width:97%;
+}
