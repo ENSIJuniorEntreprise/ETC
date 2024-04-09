@@ -3,7 +3,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className='nav'>
-        <img src="/images/navbar.png" alt="navbar" className='img'/>
+        <img src="navbar.png" alt="navbar" className='img'/>
         <ul>
           <li>
             <a href="#" className='nav-link accueil'>Accueil</a>
