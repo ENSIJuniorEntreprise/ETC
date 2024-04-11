@@ -5,6 +5,7 @@ import rectangle3 from './assets/rectangle3.png'
 function Secondpart(){
     return(
         <>
+        <div className='container'>
            <div className='vispic'>
                 <div className='recpic'>
                     <div className='rect2'><img src={rectangle2} alt="" /></div>
@@ -18,7 +19,6 @@ function Secondpart(){
                          incididunt ut labore et dolore .</p>
                 </div>
            </div>
-           <br/><br/><br/>
            <div className='vispic'>
                 <div className='text2'>
                     <br/><br/>
@@ -31,6 +31,7 @@ function Secondpart(){
                 <div className='recpic2'>
                     <div className='rect3'><img src={rectangle3} alt="" /></div>
                 </div>
+           </div>
            </div>
         </>
     );

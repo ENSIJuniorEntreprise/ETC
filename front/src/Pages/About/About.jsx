@@ -21,24 +21,17 @@ function About(){
     }, [images.length]);
     return(
         <>
-            <Topage/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <div className='container'>
+            {/*<Topage/><br/>*/}
             <Secondpart/>
-           <br/><br/><br/><br/><br/>
-           <h2 style={{ fontFamily: 'roboto' }}>Nos Valeurs</h2>
-           <br/><br/><br/><br/>
+            <h2 style={{ fontFamily: 'roboto' }}>Nos Valeurs</h2>
            <Thirdpart/>
-           <br/><br/><br/><br/><br/>
            <h2 style={{ fontFamily: 'roboto' }}>Nos activités</h2>
-           <br/><br/><br/><br/>
            <Activities/>
-           <br/><br/><br/><br/><br/>
            <h2 style={{ fontFamily: 'roboto' }}>Bureau éxécutif</h2>
-           <br/><br/><br/><br/>
            <Bureau/>
-           <br/><br/><br/><br/><br/>
            <h2 style={{ fontFamily: 'roboto' }}>Galeries</h2>
-           <br/><br/><br/><br/>
+           <div className='slidg'>
            <div className='galerryslider'>
                 {images.map((img, index) => (
                     <img
@@ -49,7 +42,6 @@ function About(){
                     />
                 ))}
             </div>
-            <br /><br /><br />
             <div className='ponct'>
             {images.map((_, index) => (
             <img
@@ -58,6 +50,8 @@ function About(){
             alt={`Circle ${index + 1}`}
             />
             ))}
+            </div>
+            </div>
         </div>
             
         </>

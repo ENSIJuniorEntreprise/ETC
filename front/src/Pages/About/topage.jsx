@@ -5,11 +5,11 @@ import rectangle69 from './assets/Rectangle 69.png'
 function Topage(){
     return(
         <>
-          <div className='topp'>
+            <div className='topp'>
                <img src={rectangle69} />
 
-          </div>
-          <div className='recapropos'>
+            </div>
+            <div className='recapropos'>
                <div className='bg1'>
                     <img src={rectangle1} alt="" />
                </div>
