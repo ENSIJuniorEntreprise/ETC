@@ -1,9 +1,30 @@
 import './Navbar.css';
-
+import navbar from './navbar.png'
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav className='nav'>
+        <img src={navbar} alt="navbar" className='img'/>
+        <ul>
+          <li>
+            <a href="#" className='nav-link accueil'>Accueil</a>
+          </li>
+          <li>
+            <a href="#" className='nav-link apropos'>A propos</a>
+          
+          </li>
+          <li>
+            <a href="/Service" className='nav-link service'>Services</a>
+          </li>
+          <li>
+            <a href="#" className='nav-link actualité'>Actualités</a>
+          </li>
+          <li>
+            <a href="#" className='nav-link contact'>Contact</a>
+          </li>
+          
+        </ul>
+    </nav>
   );
 }
 
-export default Navbar;
+export default Navbar

@@ -22,7 +22,7 @@ function About(){
     return(
         <>
         <div className='container'>
-            {/*<Topage/><br/>*/}
+            <Topage/><br/>
             <Secondpart/>
             <h2 style={{ fontFamily: 'roboto' }}>Nos Valeurs</h2>
            <Thirdpart/>

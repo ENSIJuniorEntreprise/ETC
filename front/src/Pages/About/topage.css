@@ -33,9 +33,8 @@
 }
 .recapropos h1{
      right:64%;
-     font-size: 70px;
-     Line-height: 85.33px;
-     top : 95%;
+     font-size: 4.5vw;
+     top : 107%;
 }
 .line{
     border-top: 7px solid #011E4A;
@@ -43,15 +42,13 @@
     background-color: transparent;
     z-index: 1;
     width: 23%; 
-    top: 108%; 
+    top: 120%; 
     right: 63%; 
 }
 
 .recapropos p{
     right:16%;
     left:14%;
-    top:113%;
-    font-size: 35px;
-    line-height: 43.88px;
-    
+    top:124%;
+    font-size: 2.25vw;
 }
