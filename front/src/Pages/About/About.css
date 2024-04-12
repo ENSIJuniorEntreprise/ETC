@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 6vw;
+  position:relative;
 }
 h2{
     color:#FC9601;
@@ -18,13 +19,13 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .galerryslider img{
   margin-top: -3vw;
   border: 5px solid #16A2C5;
   border-radius: 20px;
   width:80%;
-  max-width: 80%;
 }
 .ponct{
   display: flex;
@@ -34,7 +35,6 @@ h2{
 }
 .ponct img{
   width : 1.5vw;
-  /*max-width: 20%;*/
 }
 .slidg{
   display: flex;
@@ -42,14 +42,4 @@ h2{
   gap: 1.5vw;
   justify-content: center;
   align-items: center;
-}
-@media (max-width:500px){
-  .slidg{
-    margin-left: 10vw;
-  }
-}
-@media (max-width:356px){
-  .slidg{
-    margin-left: 20vw;
-  }
 }

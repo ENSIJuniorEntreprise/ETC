@@ -30,9 +30,9 @@ function About(){
            <Activities/>
            <h2 style={{ fontFamily: 'roboto' }}>Bureau éxécutif</h2>
            <Bureau/>
-           <h2 style={{ fontFamily: 'roboto' }}>Galeries</h2>
-           <div className='slidg'>
-           <div className='galerryslider'>
+            <h2 style={{ fontFamily: 'roboto' }}>Galeries</h2>
+            <div className='slidg'>
+            <div className='galerryslider'>
                 {images.map((img, index) => (
                     <img
                         key={index}
