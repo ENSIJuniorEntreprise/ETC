@@ -22,12 +22,12 @@ function About(){
     return(
         <>
         <div className='container'>
-            <Topage/><br/>
+            <Topage/>
             <Secondpart/>
             <h2 style={{ fontFamily: 'roboto' }}>Nos Valeurs</h2>
-           <Thirdpart/>
+            <Thirdpart/>
            <h2 style={{ fontFamily: 'roboto' }}>Nos activités</h2>
-           <Activities/>
+            <Activities/>
            <h2 style={{ fontFamily: 'roboto' }}>Bureau éxécutif</h2>
            <Bureau/>
             <h2 style={{ fontFamily: 'roboto' }}>Galeries</h2>

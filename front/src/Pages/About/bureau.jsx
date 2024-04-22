@@ -9,58 +9,121 @@ function Bureau(){
            
            <div className='positions1'>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
         </div>
            {/*second row of executive board*/}
            <div className='positions1'>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
            </div>
            {/*third row*/}
            <div className='positions2'>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
                 <div className='position'>
-                    <img src={rectangle81} /><br/><br/>
-                    <h3>Mohamed islam</h3><br/><br/>
-                    <h4>sakouhi</h4><br/><br/>
-                    <p>Président</p><br/><br/>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+            </div>
+        </div>
+        {/*configuration in responsiveness*/}
+        <div className='containerbresp'>
+           {/*first row of executive board*/}
+           <div className='positions2'>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+            </div>
+           {/*second row of executive board*/}
+           <div className='positions2'>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+            </div>
+           {/*third row*/}
+           <div className='positions2'>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+            </div>
+            {/*fourth row*/}
+           <div className='positions2'>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
+                </div>
+                <div className='position'>
+                    <img src={rectangle81} />
+                    <h3>Mohamed islam</h3>
+                    <h4>sakouhi</h4>
+                    <p>Président</p>
                 </div>
             </div>
         </div>

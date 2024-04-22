@@ -5,15 +5,13 @@ import rectangle3 from './assets/rectangle3.png'
 function Secondpart(){
     return(
         <>
-        <div className='container'>
+        <div className='containervs'>
            <div className='vispic'>
                 <div className='recpic'>
                     <div className='rect2'><img src={rectangle2} alt="" /></div>
                 </div>
                 <div className='text'>
-                    <br/><br/>
                     <h1 style={{ fontFamily: 'roboto' }}>Notre vision</h1>
-                    <br/><br/>
                     <p>Lorem ipsum dolor sit amet, consectetur
                          adipiscing elit, sed do eiusmod tempor 
                          incididunt ut labore et dolore .</p>
@@ -21,9 +19,7 @@ function Secondpart(){
            </div>
            <div className='vispic'>
                 <div className='text2'>
-                    <br/><br/>
                     <h1 style={{ fontFamily: 'roboto' }}>Notre mission</h1>
-                    <br/><br/>
                     <p>Lorem ipsum dolor sit amet, consectetur
                          adipiscing elit, sed do eiusmod tempor 
                          incididunt ut labore et dolore .</p>
