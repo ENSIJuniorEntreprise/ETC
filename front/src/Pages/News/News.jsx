@@ -46,21 +46,22 @@ function News() {
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci magnam debitis voluptate reprehenderit impedit commodi quaerat soluta at a dolores, incidunt labore quas unde molestiae natus similique maiores facilis id.</p>
     </div>
     <Adssegment images={[energie,conference,earth]}></Adssegment>
-    <br />
     <div id="curated">
     {articles.map((article,i)=>(
       <ArticleNews key={i} src={article.src} titre={article.titre} date={article.date} description={article.description}></ArticleNews>
     ))}
     <div id="scrolarticles">
-      <p style={styleArrows(page,1)} onClick={()=>{if(page>1) setPage(page=>page-1)}}>&#8701;</p>
+      <p style={styleArrows(page,1)} onClick={()=>{if(page>1) setPage(page=>page-1)}}>
+      <span style={{ display: 'inline-block', transform: 'rotate(180deg) translateY(-3.55px)', }}>&#10140;</span>
+      </p>
       <div id="numbers">
         <p style={style(page,1)} onClick={()=>{if(page!==1) setPage(page=>1)}}>1</p>
         <p style={style(page,2)} onClick={()=>{if(page!==2) setPage(page=>2)}}>2</p>
         <p style={style(page,3)} onClick={()=>{if(page!==3) setPage(page=>3)}}>3</p>
-        <p style={style(page,4)} onClick={()=>{if(page!==4) setPage(page=>4)}}>4</p>
-        <p style={style(page,5)} onClick={()=>{if(page!==5) setPage(page=>5)}}>5</p>
+        <p  style={style(page,4)} onClick={()=>{if(page!==4) setPage(page=>4)}}>4</p>
+        <p id="five" style={style(page,5)} onClick={()=>{if(page!==5) setPage(page=>5)}}>5</p>
       </div>
-      <p style={styleArrows(5,page)} onClick={()=>{if(page<5) setPage(page=>page+1)}}>&#8702;</p>
+      <p style={styleArrows(5,page)} onClick={()=>{if(page<5) setPage(page=>page+1)}}>&#10140;</p>
     </div>
     </div>
     </div>

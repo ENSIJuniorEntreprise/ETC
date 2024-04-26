@@ -19,7 +19,7 @@ export default function Adssegment({images}){
         setCurrentSlide(index);
       };
     
-      if (images.length == 0) {
+      if (images.length === 0) {
         return <div id="ads"></div>;
       }
     
