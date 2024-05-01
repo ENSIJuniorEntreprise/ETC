@@ -1,9 +1,11 @@
 import './Navbar.css';
-
+import navbar from './navbar.png'
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav className='nav'>
+        <div>navbar</div>
+    </nav>
   );
 }
 
-export default Navbar;
+export default Navbar
