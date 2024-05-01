@@ -1,9 +1,9 @@
-import './sec1.css';
-import logo1 from './logo1.png';
+import './sec1.css'
+import logo1 from './logo1.png'
 export default function Sec1(){
     return(
         <div id='sect1'>
-            <img src={logo1} alt="" />
+            <div id='imageload'><img src={logo1} alt="" /></div>
             <div id='sec11'>
                 <p className='tex'>#</p>
                 <p id='lead'>Leader</p>
@@ -13,4 +13,4 @@ export default function Sec1(){
             </div>
         </div>
     )
-}
+}    
