@@ -1,31 +1,38 @@
-import './section2.css';
-export default function Section2({titre,im,parag,lin,but1,but2,but3,but4}){
+import './section2.css'
+import logo from './logo.png'
+import se from './se.png'
+import ee from './ee.png'
+import Section20 from '../section20/section20.jsx'
+export default function Section2(){
     return(
-        <div>
-            <div id='section2'>
-                <div id='section21'>
-                    <h1>{titre}</h1>
-                    <img src={im} alt="" />
-                </div>
-                <div id='section22'>
-                    <div id='section220'>
-                        <h2 id='titre1'>{titre}</h2>
-                        <p>{parag}</p>
-                    </div>
-                    <button><a href={lin}>Voir plus  </a></button>
-                </div>
-                <div id='section23'> 
-                    <div className='se'>
-                        <button>{but1}</button>
-                        <button>{but2}</button>
-                    </div>
-                    <div className='se'>
-                        <button>{but3}</button>
-                        <button>{but4}</button>
-                    </div>
-                </div>
+        <div id='section2'>
+            <div id='log'>
+                <img src={logo} alt="" />
             </div>
-
+            <div id='prest'>
+                <h1>Nos prestations de service</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <Section20 
+            titre='Système embarqué'
+            im={se}
+            parag=' Lorem ipsum dolor sit amet, cons sectetur adipiscing elit, sed do eiusmod tempor incids didunt ut labore et dolore magna aliqua. Ut enim addc minim veniam. Lorem ipsum dolor sit Lorem ipsum szd dolor sit Lorem ipsum dolor sit Lorem ipsum. Lorem sds ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum'
+            lin='#'
+            but1='Solutions industrielles basées sur l IA'
+            but2='Manipulation des puces électroniques'
+            but3='IOT'
+            but4='Manipulation des puces capteurs'
+            />
+            <Section20 
+            titre='Système énergétique'
+            im={ee}
+            parag=' Lorem ipsum dolor sit amet, cons sectetur adipiscing elit, sed do eiusmod tempor incids didunt ut labore et dolore magna aliqua. Ut enim addc minim veniam. Lorem ipsum dolor sit Lorem ipsum szd dolor sit Lorem ipsum dolor sit Lorem ipsum. Lorem sds ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum'
+            lin='#'
+            but1='Etude énergétique'
+            but2='Audit thermique et énergétique'
+            but3='Efficacité énergétique'
+            but4='Valorisation de déchets'
+            />
         </div>
     )
 }
