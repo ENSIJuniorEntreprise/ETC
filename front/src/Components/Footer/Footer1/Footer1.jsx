@@ -1,5 +1,5 @@
-import './Footer.css';
-function Footer(){
+import './Footer1.css';
+function Footer1(){
     return(
         <footer>
             <div className='footer'>
@@ -12,12 +12,10 @@ function Footer(){
                             <p className='aa'>_by_birth_</p>
                             <p className='aaaa'>junior</p>
                             <p className='aa'>_by_choice</p>
-                        
-
                         </div>
                     </div>
                     <div>
-                        <p className='pages'>Pages</p>
+                        <p className='pages'>Pages :</p>
                         <div className='pages1'>
                         <a href="#" className='txt'> Accueil</a>
                         <a href="#" className='txt'>A propos</a>
@@ -28,7 +26,7 @@ function Footer(){
                         </div>
                     </div>
                     <div>
-                        <p className='contact11'>Contact</p>
+                        <p className='contact11'>Contact :</p>
                         <div className='contact1'>
                          <div className='contact2'>
                             <img src="/email.png" alt="email" className='imgg'/>
@@ -74,4 +72,4 @@ function Footer(){
 
     )
 }
-export default Footer;
+export default Footer1;

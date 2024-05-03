@@ -1,8 +1,8 @@
-import './contact1.css';
+import './Contact1.css';
 function Contact1(){
     return(
         <div className='container'>
-            <div className='con'>
+            
             <div className='containerimg'>
               <img src="/img.png" alt="managers" className='img1' />
               <img src="/navbar.png" alt="navbar" className='img2' />
@@ -11,7 +11,11 @@ function Contact1(){
             </div>
             <div className='container2'>
                 <h1 className='titre'>Nous Contacter</h1>
-                <p className='lorem'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum a similique veritatis impedit et vitae beatae, enim laboriosam facilis porro voluptatem officia amet! Enim accusantium laborum totam laudantium explicabo modi.</p>
+                <div className='lorem1'>
+                 <p className='lorem'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum a similique veritatis impedit et vitae beatae, enim laboriosam facilis porro voluptatem officia amet! Enim accusantium laborum totam laudantium explicabo modi.</p>
+                </div>
+
+                <div className='con'>
                 <div className='container21'>
                  <div className='container3'>
                     <div className='container31'>
@@ -47,22 +51,28 @@ function Contact1(){
                      <p className='nom'>Message</p>
 
                     </div>
-                  
-                    <input type="text" name="nom" id="" placeholder='veuillez saisir votre message ou votre proposition...' className='input1'/>
+                    <div className='n'>
+                     <input type="text" name="nom" id="" placeholder='veuillez saisir votre message ou votre proposition...' className='input1'/>
 
+                    </div>
                  </div>
-                 <div>
+         
+
+                </div>
+                <div>
                     <button className='button'>Envoyer votre demande</button>
 
                  </div>
 
                 </div>
 
+               
+
                 
 
             </div>
 
-            </div>
+            
            
           
             
