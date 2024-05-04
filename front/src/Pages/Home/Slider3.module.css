@@ -1,0 +1,16 @@
+.slidercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.slidercontainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.im{
+    margin-left: 105px;
+}

@@ -8,6 +8,8 @@ import News from "./Pages/News/News";
 import Contact from "./Pages/Contact/Contact";
 import Article from "./Pages/Article/Article";
 import Loader from "./Components/Loader/Loader";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "./App.css"
 
 function App() {

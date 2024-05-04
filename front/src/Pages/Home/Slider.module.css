@@ -1,0 +1,471 @@
+.Container {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+  }
+.Image {
+    width: 100%; /* Makes the image fill the container */
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.Container1{
+  
+    overflow: hidden;
+    position: relative; /* Makes this a reference for absolute positioning */
+    /* Ensure the rest of your styling is intact */
+} 
+.logo {
+  position: absolute;
+  top: 10px; /* Adjust this value to position the logo as needed */
+  left: 50%; /* Center the logo horizontally */
+  transform: translateX(-50%); /* Adjust horizontal centering */
+  z-index: 10; /* Ensure the logo is above the slides */
+  /* Adjust width or height of the logo as needed */
+  width: 100%;
+  
+}
+.bouton{
+  position: absolute;
+  top: 85%; /* Adjust this value to position the logo as needed */
+  left: 90%; /* Center the logo horizontally */
+  
+  transform: translateX(-50%); /* Adjust horizontal centering */
+  z-index: 10; /* Ensure the logo is above the slides */
+  /* Adjust width or height of the logo as needed */
+  width: 240px;
+  height:60px;
+  text-align: center;
+  align-items: center;
+  color: rgba(1, 30, 74, 1);
+  font-size: 27px;
+  font-weight: 700;
+  position: fixed;
+  width: 15%;
+  
+  
+
+}
+@media(max-width:1418px){
+  .bouton{
+    position: absolute;
+    top: 85%; /* Adjust this value to position the logo as needed */
+    left: 90%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 23px;
+    font-weight: 700;
+    position: fixed;
+    width: 17%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:1199px){
+  .bouton{
+    position: absolute;
+    top: 80%; /* Adjust this value to position the logo as needed */
+    left: 90%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 23px;
+    font-weight: 700;
+    position: fixed;
+    width: 17%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:1081px){
+  .bouton{
+    position: absolute;
+    top: 70%; /* Adjust this value to position the logo as needed */
+    left: 87%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 23px;
+    font-weight: 700;
+    position: fixed;
+    width: 20%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:1017px){
+  .bouton{
+    position: absolute;
+    top: 63%; /* Adjust this value to position the logo as needed */
+    left: 87%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 23px;
+    font-weight: 700;
+    position: fixed;
+    width: 20%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:916px){
+  .bouton{
+    position: absolute;
+    top: 60%; /* Adjust this value to position the logo as needed */
+    left: 87%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 23px;
+    font-weight: 700;
+    position: fixed;
+    width: 22%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:858px){
+  .bouton{
+    position: absolute;
+    top: 57%; /* Adjust this value to position the logo as needed */
+    left: 87%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 21px;
+    font-weight: 700;
+    position: fixed;
+    width: 22%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:821px){
+  .bouton{
+    position: absolute;
+    top: 53%; /* Adjust this value to position the logo as needed */
+    left: 87%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 21px;
+    font-weight: 700;
+    position: fixed;
+    width: 24%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:755px){
+  .bouton{
+    position: absolute;
+    top: 50%; /* Adjust this value to position the logo as needed */
+    left: 86%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 21px;
+    font-weight: 700;
+    position: fixed;
+    width: 25%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:673px){
+  .bouton{
+    position: absolute;
+    top: 43%; /* Adjust this value to position the logo as needed */
+    left: 86%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 21px;
+    font-weight: 700;
+    position: fixed;
+    width: 27%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:625px){
+  .bouton{
+    position: absolute;
+    top: 40%; /* Adjust this value to position the logo as needed */
+    left: 86%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 18px;
+    font-weight: 700;
+    position: fixed;
+    width: 26%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:568px){
+  .bouton{
+    position: absolute;
+    top: 38%; /* Adjust this value to position the logo as needed */
+    left: 84%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 18px;
+    font-weight: 700;
+    position: fixed;
+    width: 28%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:450px){
+  .bouton{
+    position: absolute;
+    top: 34%; /* Adjust this value to position the logo as needed */
+    left: 84%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:60px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 16px;
+    font-weight: 700;
+    position: fixed;
+    width: 25%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:388px){
+  .bouton{
+    position: absolute;
+    top: 31%; /* Adjust this value to position the logo as needed */
+    left: 82%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:48px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 15px;
+    font-weight: 700;
+    position: fixed;
+    width: 23%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:357px){
+  .bouton{
+    position: absolute;
+    top: 28%; /* Adjust this value to position the logo as needed */
+    left: 82%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:48px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 15px;
+    font-weight: 700;
+    position: fixed;
+    width: 24%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:338px){
+  .bouton{
+    position: absolute;
+    top: 27%; /* Adjust this value to position the logo as needed */
+    left: 82%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:48px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 15px;
+    font-weight: 700;
+    position: fixed;
+    width: 25%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:315px){
+  .bouton{
+    position: absolute;
+    top: 26%; /* Adjust this value to position the logo as needed */
+    left: 82%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:48px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 14px;
+    font-weight: 700;
+    position: fixed;
+    width: 26%;
+    
+    
+  
+  }
+  
+}
+@media(max-width:296px){
+  .bouton{
+    position: absolute;
+    top: 25%; /* Adjust this value to position the logo as needed */
+    left: 82%; /* Center the logo horizontally */
+    
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    z-index: 10; /* Ensure the logo is above the slides */
+    /* Adjust width or height of the logo as needed */
+    
+    height:46px;
+    text-align: center;
+    align-items: center;
+    color: rgba(1, 30, 74, 1);
+    font-size: 14px;
+    font-weight: 700;
+    position: fixed;
+    width: 27%;
+    
+    
+  
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
