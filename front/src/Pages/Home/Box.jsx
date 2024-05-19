@@ -1,30 +1,52 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Boxistyle from './Box.module.css';
 
 function Box(props) {
     const [value, setValue] = useState(0);
+    const [isVisible, setIsVisible] = useState(false);
+    const ref = useRef(null);
 
     useEffect(() => {
-        // Function to increment the value
-        const increment = () => {
-            setValue((prevValue) => {
-                if (prevValue < 500) {
-                    return prevValue + 1; // Increment the value by one until 500
+        const observer = new IntersectionObserver(
+            (entries) => {
+                if (entries[0].isIntersecting) {
+                    setIsVisible(true);
                 }
-                return prevValue; // Once 500 is reached, stop incrementing
-            });
+            },
+            { threshold: 0.1 }
+        );
+
+        if (ref.current) {
+            observer.observe(ref.current);
+        }
+
+        return () => {
+            if (ref.current) {
+                observer.unobserve(ref.current);
+            }
         };
+    }, []);
 
-        // Set up a timer to call the increment function
-        const timer = value < 500 && setTimeout(increment, 100); // Adjust the timeout as needed
+    useEffect(() => {
+        let timer;
+        if (isVisible) {
+            const increment = () => {
+                setValue((prevValue) => {
+                    if (prevValue < 500) {
+                        return prevValue + 1;
+                    }
+                    return prevValue;
+                });
+            };
 
-        // Cleanup function to clear the timer
+            timer = value < 500 && setTimeout(increment, 5);
+        }
+
         return () => clearTimeout(timer);
-
-    }, [value]); // Depend on 'value' to re-run the effect when it changes
+    }, [value, isVisible]);
 
     return (
-        <div className={Boxistyle.container}>
+        <div ref={ref} className={Boxistyle.container}>
             <p className={Boxistyle.Val}>+{value}</p>
             <p className={Boxistyle.Text}>{props.text}</p>
         </div>

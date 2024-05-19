@@ -30,23 +30,19 @@
     gap:50px;
 }
 .cont2{
-    overflow: hidden;
-    padding: 50px;
-    margin-right: 110px;
-   
-
-    
-    
+  overflow: hidden;
+  width: 80%;
+  padding-bottom: 50px;
+  margin-left: 10%;
+  /* margin-right: 110px; */   
+  
 }
+
 .slick-slider .slick-dots li.slick-active button:before {
-    color: rgba(22, 162, 197, 1) !important; /* Ensures this styling has a higher priority */
-    width: 70px !important;
-    height: 70px!important;
+    color: rgba(22, 162, 197, 1) !important; 
   }
 .slick-slider .slick-dots  button:before {
-    color: white !important; /* Ensures this styling has a higher priority */
-    width: 70px!important;
-    height: 70px!important;
+    color: white !important; 
   }
 
   @media(max-width:1289px){
@@ -54,63 +50,19 @@
         gap:6%;
     }
   }
-  @media(max-width:978px){
+  @media(max-width:600px){
     .cardcont{
         display: flex;
         flex-direction: column;
         gap:10px;
-        margin-left: 19%;
-
-    }
-  }
-  @media(max-width:667px){
-    .cardcont{
-        margin-left: 20%;
-    }
-  }
-  @media(max-width:582px){
-    .cardcont{
-        margin-left: 14%;
-    }
-
-  }
-  @media(max-width:519px){
-    .cardcont{
-        margin-left: 12%;
-    }
-  }
-  @media(max-width:484px){
-    .cardcont{
         margin-left: 10%;
-    }
-  }
-  @media(max-width:440px){
-    .cardcont{
-        margin-left: 5.5%;
-    }
-  }
-  @media(max-width:393px){
-    .cardcont{
-        margin-left: 2.85%;
-    }
+        gap:15px;
 
-  }
-  @media(max-width:359px){
-    .cardcont{
-        margin-left: 1.6%;
     }
   }
-  @media(max-width:322px){
-    .cardcont{
-        margin-left: 1%;
-    }
 
-  }
-  @media(max-width:300px){
-    .cardcont{
-        margin-left: 0.5%;
-    }
-  }
+
+  
   
   .hor1{
     margin-left: 1.5px; 
@@ -177,10 +129,18 @@
     align-items: center;
     gap:0.09%;
   } 
+  .cont2{
+    overflow: hidden;
+    width: 90%;
+    padding-bottom: 50px;
+    margin-left: 5%;
+    /* margin-right: 110px; */   
+    
+}
 }
 .cont{
   overflow: hidden;
-  padding: 8%;
+  padding: 3% 8%;
   
 }
 @media(max-width:1000px){
@@ -213,15 +173,7 @@
   }
 
 }
-.cont2{
-  overflow: hidden;
-  padding: 50px;
-  margin-right: 110px;
- 
 
-  
-  
-}
 .hor3{
   margin-left: 15px;
 }
@@ -437,3 +389,24 @@
     
   }
 }
+
+@media (max-width:600px){
+  .cont2{
+    overflow: hidden;
+    width: 70%;
+    padding-bottom: 50px;
+    margin-left: 15%;
+    
+}
+}
+@media (max-width:400px){
+  .cont2{
+    overflow: hidden;
+    width: 90%;
+    padding-bottom: 50px;
+    margin-left: 5%;
+    
+}
+}
+.ul.slick-dots{
+position:none ;}

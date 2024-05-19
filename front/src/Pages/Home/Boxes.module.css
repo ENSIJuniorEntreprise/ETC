@@ -20,7 +20,7 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-columns: repeat(2,1fr);
         grid-column-gap:0px;
-        margin-left: 17%;
+        margin-left: 5%;
     }
 }
  @media(max-width:540px){

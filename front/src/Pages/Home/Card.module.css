@@ -19,8 +19,7 @@
     line-height: 58.51px;
     align-items: center;
     color: white;
-    padding-left: 55px;
-    
+    text-align: center;
     
 }
 .para{
@@ -47,269 +46,119 @@
 
     
 }
-@media(max-width:1360px){
+
+@media(max-width:1100px){
     .container{
-        width:60%;
-        height: 580px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
+        width:40vw;
+        height: 590px;
+       
        }
-       .Image{
-           padding: 4%;
-           
+}
+
+@media(max-width:1000px){
+    .container{
+        width:40vw;
+        height: 530px;
        
        }
        .titre{
-           font-weight: 800;
-           font-size: 35px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 55px;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 19px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 3%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 5%;
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-       
-           
-       }
-
+        font-weight: 800;
+        font-size: 31px;
+        line-height: 58.51px;
+        align-items: center;
+        color: white;
+        
+        
+        
+    }
+    .para{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29.26px;
+        color: white;
+        padding-left: 1.5%;
+        margin-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Bouton{
+        width: 45%;
+        height: 50px;
+        background-color:  rgba(22, 162, 197, 1);
+        color: rgba(1, 30, 74, 1);
+        align-self: center;
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 0px;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
 }
-@media(max-width:1346px){
+
+@media(max-width:800px){
     .container{
-        width:60%;
-        height: 570px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
+        width:40vw;
+        height: 480px;
        
        }
        .titre{
-           font-weight: 800;
-           font-size: 35px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 55px;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 19px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 3%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 5%;
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-       
-           
-       }
-
+        font-weight: 800;
+        font-size: 3.75vw;
+        line-height: 58.51px;
+        align-items: center;
+        color: white;
+        
+        
+        
+    }
+    .para{
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 23px;
+        color: white;
+        padding-left: 1.5%;
+        margin-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Bouton{
+        width: 45%;
+        height: 40px;
+        background-color:  rgba(22, 162, 197, 1);
+        color: rgba(1, 30, 74, 1);
+        align-self: center;
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
 }
-@media(max-width:1310px){
-    .container{
-        width:60%;
-        height: 570px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 35px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 55px;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 19px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 5%;
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-       
-           
-       }
 
-}
-@media(max-width:1289px){
+@media(max-width:730px){
     .container{
-        width:60%;
-        height: 570px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
+        width:40vw;
+        height: 450px;
        
        }
-       .titre{
-           font-weight: 800;
-           font-size: 35px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 9%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 19px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
        
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 3%;
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-       
-           
-       }
+}
 
-}
-@media(max-width:1217px){
+@media(max-width:660px){
     .container{
-        width:60%;
-        height: 560px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
+        width:40vw;
+        height: 430px;
        
        }
-       .titre{
-           font-weight: 800;
-           font-size: 33px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 12.25%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
        
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 5%;
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-       
-           
-       }
-
 }
-@media(max-width:1099px){
+@media(max-width:600px){
     .container{
-        width:60%;
+        width:90%;
         height: 550px;
         border: solid 4px rgba(22, 162, 197, 1);
         border-radius: 12px;
@@ -329,7 +178,7 @@
            line-height: 58.51px;
            align-items: center;
            color: white;
-           padding-left: 10%;
+           
            
            
        }
@@ -339,8 +188,9 @@
            line-height: 29.26px;
            color: white;
            padding-left: 1.5%;
-           margin-top: 20px;
-       
+           margin-top: 5px;
+           padding-left: 20px;
+           padding-right: 20px;
        }
        .Bouton{
            width: 45%;
@@ -348,780 +198,22 @@
            background-color:  rgba(22, 162, 197, 1);
            color: rgba(1, 30, 74, 1);
            align-self: center;
-           margin-top: 5%;
+           
            font-weight: 700;
            font-size: 29px;
            line-height: 39.01px;
            border-radius: 5px;
            text-align: center;
-       
            
        }
+}
 
-}
-@media(max-width:1039px){
-    .container{
-        width:60%;
-        height: 540px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 10%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 5%;
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-       
-           
-       }
 
-}
-@media(max-width:978px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 25%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 3px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 12%;
-           
-       
-           
-       }
-}
-@media(max-width:930px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 25%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 7%;
-           
-       
-           
-       }
-}
-@media(max-width:872px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 25%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 4%;
-           
-       
-           
-       }
-}
-@media(max-width:848px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 25%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 4%;
-           
-       
-           
-       }
-}
-@media(max-width:830px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 23%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 3%;
-           
-       
-           
-       }
-}
-@media(max-width:795px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 23%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 0%;
-           
-       
-           
-       }
-}
-@media(max-width:750px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 21%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 0%;
-           top:4%
-           
-       
-           
-       }
-}
-@media(max-width:716px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 20%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 0%;
-           top:4%
-           
-       
-           
-       }
-}
-@media(max-width:700px){
-    .container{
-        width:80%;
-        height: 585px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 31px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 18%;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 18px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           position: relative;
-           bottom: 0%;
-           
-           
-       
-           
-       }
-}
-@media(max-width:667px){
-    .container{
-        width:80%;
-        height: 530px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 27px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 17%;
-           
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 15px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 1%;
-           font-weight: 700;
-           font-size: 26px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
-       }
-}
-@media(max-width:582px){
-    .container{
-        width:85%;
-        height: 530px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 27px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 17%;
-           
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 15px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 1%;
-           font-weight: 700;
-           font-size: 26px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
-       }
-}
-@media(max-width:519px){
-    .container{
-        width:88%;
-        height: 523px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 27px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 17%;
-           
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 15px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 26px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
-       }
-}
-@media(max-width:484px){
+@media(max-width:450px){
     .container{
         width:90%;
-        height: 516px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 27px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 16%;
-           
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 15px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 26px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
-       }
-}
-@media(max-width:440px){
-    .container{
-        width:95%;
-        height: 516px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
+        height: 450px;
+             
        }
        .Image{
            padding: 4%;
@@ -1131,50 +223,36 @@
        .titre{
            font-weight: 800;
            font-size: 25px;
-           line-height: 58.51px;
+           line-height: 40px;
            align-items: center;
            color: white;
-           padding-left: 16%;
-           
            
            
        }
        .para{
            font-weight: 400;
-           font-size: 14.5px;
-           line-height: 29.26px;
+           font-size: 16px;
+           line-height: 25px;
            color: white;
-           padding-left: 1.5%;
-           margin-top: 20px;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin-top: 5px;
        
        }
        .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 26px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
+           margin-top: 4px;
+           font-size: 20px;
+           height: 40px;
+           line-height: 10px;
+
        }
 }
-@media(max-width:393px){
+
+@media(max-width:350px){
     .container{
-        width:97%;
-        height: 506px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
+        width:90%;
+        height: 380px;
+             
        }
        .Image{
            padding: 4%;
@@ -1183,157 +261,37 @@
        }
        .titre{
            font-weight: 800;
-           font-size: 25px;
-           line-height: 58.51px;
+           font-size: 23px;
+           line-height: 40px;
            align-items: center;
            color: white;
-           padding-left: 16%;
-           
            
            
        }
        .para{
            font-weight: 400;
-           font-size: 14.5px;
-           line-height: 29.26px;
+           font-size: 14px;
+           line-height: 20px;
            color: white;
-           padding-left: 0.2%;
-           margin-top: 20px;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin-top: 5px;
        
        }
        .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 24px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
+           margin-top: 4px;
+           font-size: 17px;
+           height: 35px;
+           line-height: 10px;
+
        }
 }
-@media(max-width:359px){
-    .container{
-        width:98%;
-        height: 506px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 24px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 15%;
-           
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 14.5px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 0.2%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-           width: 43%;
-           height: 43px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 24px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
-       }
-}
-@media(max-width:322px){
-    .container{
-        width:99%;
-        height: 506px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 24px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 13%;
-           
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 14.5px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 0.2%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-        width: 43%;
-        height: 43px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 24px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
-       }
-}
+
 @media(max-width:300px){
     .container{
-        width:99%;
-        height: 490px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
+        width:90%;
+        height: 350px;
+             
        }
        .Image{
            padding: 4%;
@@ -1342,180 +300,28 @@
        }
        .titre{
            font-weight: 800;
-           font-size: 24px;
-           line-height: 58.51px;
+           font-size: 20px;
+           line-height: 40px;
            align-items: center;
            color: white;
-           padding-left: 11%;
-           
            
            
        }
        .para{
            font-weight: 400;
-           font-size: 14.5px;
-           line-height: 29.26px;
+           font-size: 12px;
+           line-height: 18px;
            color: white;
-           padding-left: 0.2%;
-           margin-top: 20px;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin-top: 5px;
        
        }
        .Bouton{
-        width: 43%;
-        height: 43px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 24px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
+           margin-top: 3px;
+           font-size: 17px;
+           height: 35px;
+           line-height: 1px;
+
        }
 }
-@media(max-width:286px){
-    .container{
-        width:99%;
-        height: 475px;
-        border: solid 4px rgba(22, 162, 197, 1);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        
-        
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 24px;
-           line-height: 58.51px;
-           align-items: center;
-           color: white;
-           padding-left: 9%;
-           
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 14.5px;
-           line-height: 29.26px;
-           color: white;
-           padding-left: 0.2%;
-           margin-top: 20px;
-       
-       }
-       .Bouton{
-        width: 43%;
-        height: 43px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           margin-top: 4%;
-           font-weight: 700;
-           font-size: 23px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           margin-left:2.5%;
-       
-           
-       }
-}
-
-
-
-
-
-           
-
-
-
-
-
-
-
-
-
-
-
-           
-
-
-
-
-
-
-
-
-           
-
-
-
-
-
-
-
-
-
-
-
-           
-
-
-
-
-
-           
-
-
-
-           
-
-
-
-
-
-
-
-
-
-
-
-           
-
-
-
-
-
-           
-
-
-
-
-
-
-
-
-
-
-
-           
-
-
-
-
-
-
-
-
-
-

@@ -12,7 +12,7 @@ function Card2(props){
                 <h2 className={style.titre}>{props.titre}</h2>
                
                 <div className={style.cardbutton} >
-                  <button className={style.buton}>Voir plus > </button> 
+                  <button className={style.buton}>Voir plus {">"} </button> 
                   <p className={style.carddate}>{props.date}</p>
                 
                 </div>

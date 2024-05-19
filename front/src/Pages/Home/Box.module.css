@@ -145,7 +145,7 @@
 @media(max-width:845px){
     .container{
         background-color: rgba(22, 162, 197, 1);
-        width: 60%;
+        width: 90%;
         height: 132px;
         display: flex;
         flex-direction: column;
@@ -173,103 +173,24 @@
     
     }
 }
- @media(max-width:680px){
+
+@media(max-width:500px){
     .container{
         background-color: rgba(22, 162, 197, 1);
-        width: 60%;
+        width: 80%;
         height: 120px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .Val{
-        color: white;
-        line-height: 85.33px;
-        font-weight: 700;
-        font-size:35px;
-        position: relative;
-        right:10px;
-        top:20px;
-        
-    }
-    .Text{
-        color: rgba(1, 30, 74, 1);
-        font-size: 21px;
-        font-family: Roboto;
-        font-weight: 900;
-        line-height: 46.88px;
-        position: relative;
-        bottom: 10px;
-    
-    }
+
 } 
-@media(max-width:560px){
-    .container{
-        background-color: rgba(22, 162, 197, 1);
-        width: 60%;
-        height: 115px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .Val{
-        color: white;
-        line-height: 85.33px;
-        font-weight: 700;
-        font-size:33px;
-        position: relative;
-        right:10px;
-        top:20px;
-        
-    }
-    .Text{
-        color: rgba(1, 30, 74, 1);
-        font-size: 21px;
-        font-family: Roboto;
-        font-weight: 900;
-        line-height: 46.88px;
-        position: relative;
-        bottom: 10px;
-    
-    }
-} 
-@media(max-width:540px){
-    .container{
-        background-color: rgba(22, 162, 197, 1);
-        width: 50%;
-        height: 140px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .Val{
-        color: white;
-        line-height: 85.33px;
-        font-weight: 700;
-        font-size:33px;
-        position: relative;
-        right:10px;
-        top:20px;
-        
-    }
-    .Text{
-        color: rgba(1, 30, 74, 1);
-        font-size: 21px;
-        font-family: Roboto;
-        font-weight: 900;
-        line-height: 46.88px;
-        position: relative;
-        bottom: 10px;
-    
-    }
-} 
+
 @media(max-width:430px){
     .container{
         background-color: rgba(22, 162, 197, 1);
-        width: 55%;
+        width: 80%;
         height: 120px;
         display: flex;
         flex-direction: column;
@@ -300,7 +221,7 @@
 @media(max-width:340px){
     .container{
         background-color: rgba(22, 162, 197, 1);
-        width: 70%;
+        width: 80%;
         height: 120px;
         display: flex;
         flex-direction: column;

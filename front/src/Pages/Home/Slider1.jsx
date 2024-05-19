@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from './assets/image1.png';
+import image1 from './assets/slideHome.jpg';
 import Sliderstyle from './Slider.module.css';
 import logo from './assets/logo.png';
 
@@ -14,36 +14,32 @@ function AutoPlay() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear"
+    speed: 500,
+    pauseOnHover: false, // Continuer à slider même en hover
   };
+
+  const images = [
+    image1,
+    image1,
+    image1, // Répétez ou ajoutez d'autres images ici
+  ];
 
   return (
     <div className={Sliderstyle.Container5}>
+      <Slider {...settings} className={Sliderstyle.Container}>
+        {images.map((image, index) => (
+          <div key={index} className={Sliderstyle.Slide}>
+            <img src={image} className={Sliderstyle.Image} alt={`slide-${index}`} />
+          </div>
+        ))}
+      </Slider>
       <div className={Sliderstyle.Container1}>
-        <Slider {...settings}>
-          {/* Slider items */}
-          <div className={Sliderstyle.Container}>
-            <img src={image1} className={Sliderstyle.Image} alt="" />
-          </div>
-          <div className={Sliderstyle.Container}>
-            <img src={image1} className={Sliderstyle.Image} alt="" />
-          </div>
-          <div className={Sliderstyle.Container}>
-            <img src={image1} className={Sliderstyle.Image} alt="" />
-          </div>
-          {/* Repeat for other slides as necessary */}
-        </Slider>
-        {/* Apply the 'logo' className to your logo img tag */}
         <div className={Sliderstyle.logocont}>
-           <img src={logo} className={Sliderstyle.logo} alt="Logo" />
-
+          <img src={logo} className={Sliderstyle.logo} alt="Logo" />
         </div>
-         <div className={Sliderstyle.butContainer}>
-          <button className={Sliderstyle.bouton}>Nous Contacter</button> 
-        </div> 
-       
+        <div className={Sliderstyle.butContainer}>
+          <button className={Sliderstyle.bouton}>Nous Contacter</button>
+        </div>
       </div>
     </div>
   );

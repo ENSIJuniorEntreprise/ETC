@@ -1,7 +1,4 @@
-.container{
-   
-   
-}  
+ 
 .Image {
     width: 100%; /* Makes the image fill the container */
     height: 100%;
@@ -21,7 +18,7 @@
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 300px;
+    height: 400px;
     
     
   }
