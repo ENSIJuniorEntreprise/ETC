@@ -13,7 +13,7 @@ body{
     position: relative;
     margin-left: 0;
     margin-right: 0;
-    background: url(../../assets/e9a34ff59039d046844b58cf3e6ef1a0.jpg) fixed center;
+    background: url(../../Assets/e9a34ff59039d046844b58cf3e6ef1a0.jpg) fixed center;
     
 }
 #divpic div{
@@ -47,15 +47,17 @@ body{
     padding: 1vh;
     padding-left: 2vw;
     padding-right: 2vw;
-}
-#box h1{text-align: center;}
-#box hr {
-    border: 2px solid  #011E4A;
-    width: 85%;
-    margin:0 auto;
+    padding-bottom: 20px;
     
 }
-#box p{margin: 1%;
+/* #box h1{text-align: center;} */
+#box hr {
+    border: 2px solid  #011E4A;
+    width: 43%;
+    margin-left: 0;
+    
+}
+#box p{
 font-size: 1.2rem;}
 
 #curated{
@@ -148,6 +150,6 @@ font-size: 1.2rem;}
     position: relative;
     margin-left: 0;
     margin-right: 0;
-    background: url(../../assets/e9a34ff59039d046844b58cf3e6ef1a0.jpg) fixed center;
+    background: url(../../Assets/e9a34ff59039d046844b58cf3e6ef1a0.jpg) fixed center;
     
 }}

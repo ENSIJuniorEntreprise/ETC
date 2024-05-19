@@ -1,8 +1,8 @@
 import './News.css';
-import conference from '../../assets/e9a34ff59039d046844b58cf3e6ef1a0.jpg'
-import energie from '../../assets/07fb903e3e6b09836e785751965c929f.jpg'
-import earth from '../../assets/caf3c301159efe854de8c9f96f1329c0.jpg'
-import logo from '../../assets/4ee934befba8ca8b00dd73de6c38b560.png'
+import energie from '../../Assets/07fb903e3e6b09836e785751965c929f.jpg'
+import earth from '../../Assets/caf3c301159efe854de8c9f96f1329c0.jpg'
+import logo from '../../Assets/4ee934befba8ca8b00dd73de6c38b560.png'
+import conference from '../../Assets/e9a34ff59039d046844b58cf3e6ef1a0.jpg'
 import ArticleNews from '../../Components/ArticleNews/ArticleNews';
 import Adssegment from '../../Components/Adssegment/Adssegment';
 import { useState } from 'react';
@@ -43,7 +43,7 @@ function News() {
     <div id="box">
       <h1>Nos événements & actualités</h1>
       <hr />
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci magnam debitis voluptate reprehenderit impedit commodi quaerat soluta at a dolores, incidunt labore quas unde molestiae natus similique maiores facilis id.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci magnam debitis voluptate reprehenderit impedit commodi quaerat soluta at a dolores, incidunt labore quas unde molestiae natus similique maiores facilis id. amet consectetur adipisicing elit. </p>
     </div>
     <Adssegment images={[energie,conference,earth]}></Adssegment>
     <div id="curated">
