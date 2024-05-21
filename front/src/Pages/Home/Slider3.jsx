@@ -6,7 +6,6 @@ import style from './Slider3.module.css';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import AutoPlay from './Slider1';
 
 const imageList = [
   { id: 1, src: slider3 },

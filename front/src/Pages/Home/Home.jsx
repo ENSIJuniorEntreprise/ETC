@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css';
+import style from './Home.module.css'; 
 import Slider1 from './Slider1.jsx'
 import Button from 'react-bootstrap/Button';
 import Box from './Box.jsx'
@@ -16,6 +16,7 @@ import Card2 from './Card2.jsx';
 //import image6 from './assets/image6.png'
 import Slider3 from './Slider3.jsx'
 import img from "./assets/slideHome.jpg"
+import pdf from "./../../Assets/example.pdf"
 
 const cardData = [
   { titre: "Les énergies renouvelables : un avenir prometteur", date: "11-06-2024", image:img },
@@ -26,7 +27,7 @@ const cardData = [
 function Home() {
   
   return (
-     <div className='Home'>
+     <div className={style.Home}>
       <Slider1></Slider1>
        <br></br>
        <br></br>
@@ -38,7 +39,7 @@ function Home() {
       <Text title="Nos Services" paragraphe="En tant que junior entreprise, nos engagements reposent sur des valeurs fondamentales qui guident chacune de nos actions."></Text>
        <br></br>
        <br></br> 
-       <div className='cardcont'>
+       <div className={style.cardcont}>
          <Card source={image2} title="Système embarqué" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."></Card>
          <Card source={image2} title="Système embarqué" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."></Card>
        </div>
@@ -47,36 +48,34 @@ function Home() {
        <Text title="Nos Engagement" paragraphe="En tant que junior entreprise, nos engagements reposent sur des valeurs fondamentales qui guident chacune de nos actions."></Text>
        <br></br>
        <br></br> 
-       
-       <div className='hor1'> 
+       <div className={style.sectionEngagement}>
+       <div className={style.hor1}> 
          <Horizentalcard source={image3} titre="Responsabilité sociétale des entreprises" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit
- Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum."></Horizentalcard>
-           <button className='readbutton'>Read More</button>
-       </div>
-       <br></br>
-       <br></br>
-       <div className='hor2'>
-         <Horizentalcard source={image4} titre="Qualité" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit
- Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum." ></Horizentalcard>
+ Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum." pdf={pdf}></Horizentalcard>
+          
        </div>
 
-       <br></br>
-       <br></br>
-       <div className='hor3'>
+       <div className={style.hor2}>
+         <Horizentalcard source={image4} titre="Qualité" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit
+ Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum." pdf={pdf}></Horizentalcard>
+       </div>
+
+
+       <div className={style.hor3}>
          <Horizentalcard source={image5} titre="Mouvement" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit
  Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum." ></Horizentalcard>
        </div> 
- 
+       </div>
 
  
 
-       <div className='cont'>
+       <div className={style.cont}>
          <Slider2></Slider2>
        </div>
        <Text title="Actualité" paragraphe="En tant que junior entreprise, nos engagements reposent sur des valeurs fondamentales qui guident chacune de nos actions."></Text>
        <br></br>
        <br></br> 
-       <div className='card2container'>
+       <div className={style.card2container}>
         {cardData.map((card, index) => (
           <Card2 key={index} titre={card.titre} date={card.date} image={card.image}/>
         ))}
@@ -87,7 +86,7 @@ function Home() {
        <br></br> 
        <Text title="Nos Partenaires" paragraphe="En tant que junior entreprise, nos engagements reposent sur des valeurs fondamentales qui guident chacune de nos actions."></Text>
        <br></br>
-       <div className='cont2'>
+       <div className={style.cont2}>
          <Slider3></Slider3>
        </div>      
 
