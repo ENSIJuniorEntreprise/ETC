@@ -13,12 +13,18 @@ import image4 from './assets/image3.png'
 import image5 from './assets/image4.png'
 import Slider2 from './Slider2.jsx'
 import Card2 from './Card2.jsx';
-// import image6 from './assets/image6.png'
+//import image6 from './assets/image6.png'
 import Slider3 from './Slider3.jsx'
+import img from "./assets/slideHome.jpg"
 
-
+const cardData = [
+  { titre: "Les énergies renouvelables : un avenir prometteur", date: "11-06-2024", image:img },
+  { titre: "Forum Annuel de l’ENSTAB organisé par l’ETC", date: "11-06-2024", image:image2  },
+  { titre: "Les énergies renouvelables : un avenir prometteur", date: "11-06-2024", image:img  }
+];
 
 function Home() {
+  
   return (
      <div className='Home'>
       <Slider1></Slider1>
@@ -71,10 +77,10 @@ function Home() {
        <br></br>
        <br></br> 
        <div className='card2container'>
-         <Card2 titre="Les énergies renouvelables : un avenir prometteur" date="11-06-2024"></Card2>
-         <Card2 titre="Forum Annuel de l’ENSTAB organisé par l’ETC" date="11-06-2024"></Card2>
-         <Card2 titre="Les énergies renouvelables : un avenir prometteur" date="11-06-2024"></Card2>
-       </div>
+        {cardData.map((card, index) => (
+          <Card2 key={index} titre={card.titre} date={card.date} image={card.image}/>
+        ))}
+      </div>
         <br></br>
        <br></br>
        <br></br>

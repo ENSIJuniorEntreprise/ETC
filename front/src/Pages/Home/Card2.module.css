@@ -1,29 +1,51 @@
 .cardcontainer {
     display: flex;
     flex-direction: column;
-    background-image:url('./assets/image1.png');
     background-size: cover;
-   
+    background-position: center;
     border:solid 3px rgba(22, 162, 197, 1);
     border-radius: 10px;
     overflow: hidden;
     color: white;
     height: 289px;
     width: 24%; /* Adjust to your preference */
+    position: relative;
   }
-  .titre{
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 30, 74, 0.5);
+    border-radius: 10px; /* To match the border radius of cardcontainer */
+    z-index: 1;
+  }
+
+  .cardcontainer:hover{
+scale: 1.03;
+  }
+
+  .titre {
     font-weight: 500;
     font-size: 25px;
     position: relative;
-    top:30px;
-    left:10px;
+    top: 30px;
+    left: 10px;
+    z-index: 2; /* Ensure text is above overlay */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .cardcontent {
     padding-top: 100px; 
   }
   .carddate {
     position: relative;
-    right:65px;
+    right:55px;
     bottom: 8.7px;
    
     font-weight: 700;
@@ -64,7 +86,6 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
       background-size: cover;
 
       border:solid 3px rgba(22, 162, 197, 1);
@@ -80,7 +101,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -130,7 +151,7 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
 
       border:solid 3px rgba(22, 162, 197, 1);
@@ -146,7 +167,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -196,7 +217,7 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
 
       border:solid 3px rgba(22, 162, 197, 1);
@@ -212,7 +233,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -262,7 +283,7 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
 
       border:solid 3px rgba(22, 162, 197, 1);
@@ -270,7 +291,7 @@
       overflow: hidden;
       color: white;
       height: 270px;
-      width: 27%; /* Adjust to your preference */
+      width: 28%; /* Adjust to your preference */
     }
     .titre{
       font-weight: 500;
@@ -278,7 +299,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -324,11 +345,12 @@
       font-size: 16px;
     }
   }
+
   @media(max-width:1100px){
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
 
       border:solid 3px rgba(22, 162, 197, 1);
@@ -344,7 +366,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -390,85 +412,20 @@
       font-size: 16px;
     }
   }
-  @media(max-width:1181px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
 
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 270px;
-      width: 27%; /* Adjust to your preference */
-    }
-    .titre{
-      font-weight: 500;
-      font-size: 22px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
-      
-    }
-    .carddate {
-      position: relative;
-      right:65px;
-      bottom: 7px;
-     
-      font-weight: 700;
-      font-size: 16px;
-    }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:40px;  
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
-    }
-    .buton{
-      background-color:rgba(1, 30, 74, 0);
-      border: none;
-      color: white;
-      position: relative;
-      left:40px;
-      top:18.5px;
-      font-weight: 700;
-      font-size: 16px;
-    }
-  }
   @media(max-width:1012px){
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
 
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
       overflow: hidden;
       color: white;
-      height: 270px;
-      width: 31%; /* Adjust to your preference */
+      height: 250px;
+      width: 28%; /* Adjust to your preference */
     }
     .titre{
       font-weight: 500;
@@ -476,7 +433,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -485,91 +442,10 @@
     .carddate {
       position: relative;
       right:65px;
-      bottom: 7px;
+      bottom: 16px;
      
       font-weight: 700;
       font-size: 16px;
-    }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:40px;  
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
-    }
-    .buton{
-      background-color:rgba(1, 30, 74, 0);
-      border: none;
-      color: white;
-      position: relative;
-      left:40px;
-      top:18.5px;
-      font-weight: 700;
-      font-size: 16px;
-    }
-  }
-  @media(max-width:967px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
-
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 270px;
-      width: 35%; /* Adjust to your preference */
-    }
-  }
-  @media(max-width:967px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
-
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 270px;
-      width: 35%; /* Adjust to your preference */
-    }
-    .titre{
-      font-weight: 500;
-      font-size: 20px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
-      
-    }
-    .carddate {
-      position: relative;
-      right:65px;
-      bottom: 7px;
-     
-      font-weight: 700;
-      font-size: 15px;
     }
     .cardbutton {
       background-color:rgba(1, 30, 74, 0.56);
@@ -598,118 +474,76 @@
       color: white;
       position: relative;
       left:30px;
-      top:18.5px;
+      top:9px;
       font-weight: 700;
-      font-size: 15px;
+      font-size: 16px;
     }
   }
-  @media(max-width:858px){
+  @media(max-width:967px){
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
 
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
       overflow: hidden;
       color: white;
-      height: 255px;
-      width: 37%; /* Adjust to your preference */
-    }
-    .titre{
-      font-weight: 500;
-      font-size: 19px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
+      /* height: 270px; */
+      width: 30%; /* Adjust to your preference */
       
     }
-    .carddate {
-      position: relative;
-      right:65px;
-      bottom: 7px;
-     
-      font-weight: 700;
-      font-size: 15px;
-    }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:30px;  
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
+    .titre{
+      font-size: 20px;
     }
     .buton{
-      background-color:rgba(1, 30, 74, 0);
-      border: none;
-      color: white;
-      position: relative;
-      left:15px;
-      top:16px;
-      font-weight: 700;
-      font-size: 15px;
+      left:20px;
+      font-size: 16px;
     }
   }
+
+
   @media(max-width:811px){
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
       overflow: hidden;
       color: white;
-      height: 260px;
-      width: 47%; /* Adjust to your preference */
+      height: 300px;
+      width: 70%; /* Adjust to your preference */
     }
     .titre{
       font-weight: 500;
-      font-size: 20px;
+      font-size: 25px;
       position: relative;
-      top:30px;
+      top:60px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
       
     }
     .carddate {
-      position: relative;
-      right:17%;
-      bottom: 7px;
+      position: absolute;
+      left:1vw; 
+      bottom: 36px;
      
       font-weight: 700;
       font-size: 17px;
     }
     .cardbutton {
       background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
+      width: 100%;
       color: white;
       border:solid 3px rgba(22, 162, 197, 1);
       margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
+      height: 100px;
       cursor: pointer;
       transition: background-color 0.3s ease;
       display: flex;
@@ -718,7 +552,7 @@
       border-left: none;
       border-bottom: none;
       position: relative;
-      top:30px;  
+      top:60px;  
       
     }
     .cardbutton:hover {
@@ -728,216 +562,32 @@
       background-color:rgba(1, 30, 74, 0);
       border: none;
       color: white;
-      position: relative;
-      left:14%;
+      position: absolute;
+      left:80%;
       top:18.7px;
       font-weight: 700;
       font-size: 17px;
+      white-space: nowrap;
     }
   }
-  @media(max-width:714px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 260px;
-      width: 47%; /* Adjust to your preference */
-    }
-    .titre{
-      font-weight: 500;
-      font-size: 20px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
-      
-    }
-    .carddate {
-      position: relative;
-      right:20%;
-      bottom: 7px;
-     
-      font-weight: 700;
-      font-size: 17px;
-    }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:30px;  
-      
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
-    }
+  @media(max-width:670px){
+  
+  .buton{
+    left:75%;
+  }
+  }
+  @media(max-width:540px){
+  
     .buton{
-      background-color:rgba(1, 30, 74, 0);
-      border: none;
-      color: white;
-      position: relative;
-      left:13%;
-      top:18.7px;
-      font-weight: 700;
-      font-size: 17px;
+      left:73%;
     }
-  }
-  @media(max-width:631px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 260px;
-      width: 55%; /* Adjust to your preference */
     }
-    .titre{
-      font-weight: 500;
-      font-size: 20px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
-      
-    }
-    .carddate {
-      position: relative;
-      right:20%;
-      bottom: 7px;
-     
-      font-weight: 700;
-      font-size: 17px;
-    }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:30px;  
-      
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
-    }
-    .buton{
-      background-color:rgba(1, 30, 74, 0);
-      border: none;
-      color: white;
-      position: relative;
-      left:13%;
-      top:18.7px;
-      font-weight: 700;
-      font-size: 17px;
-    }
-  }
-  @media(max-width:553px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 260px;
-      width: 60%; /* Adjust to your preference */
-    }
-    .titre{
-      font-weight: 500;
-      font-size: 20px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
-      
-    }
-    .carddate {
-      position: relative;
-      right:20%;
-      bottom: 7px;
-     
-      font-weight: 700;
-      font-size: 17px;
-    }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:30px;  
-      
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
-    }
-    .buton{
-      background-color:rgba(1, 30, 74, 0);
-      border: none;
-      color: white;
-      position: relative;
-      left:12%;
-      top:18.7px;
-      font-weight: 700;
-      font-size: 17px;
-    }
-  }
+
   @media(max-width:493px){
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
@@ -952,7 +602,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -960,7 +610,7 @@
     }
     .carddate {
       position: relative;
-      right:20%;
+      left:-20%;
       bottom: 7px;
      
       font-weight: 700;
@@ -1003,7 +653,7 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
@@ -1018,7 +668,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -1069,7 +719,7 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
@@ -1084,7 +734,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -1135,7 +785,7 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
@@ -1150,7 +800,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -1198,30 +848,8 @@
     }
   }
   @media(max-width:368px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 260px;
-      width: 80%; /* Adjust to your preference */
-    }
-    .titre{
-      font-weight: 500;
-      font-size: 18px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
-      
-    }
+    
+    
     .carddate {
       position: relative;
       right:23%;
@@ -1267,7 +895,7 @@
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
@@ -1282,7 +910,7 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
@@ -1290,8 +918,8 @@
     }
     .carddate {
       position: relative;
-      right:25%;
-      bottom: 6px;
+      left:-23%;
+      bottom: 14px;
      
       font-weight: 700;
       font-size: 16px;
@@ -1312,7 +940,7 @@
       border-left: none;
       border-bottom: none;
       position: relative;
-      top:30px;  
+      top:50px;  
       
     }
     .cardbutton:hover {
@@ -1324,16 +952,17 @@
       color: white;
       position: relative;
       left:11%;
-      top:19px;
+      top:11px;
       font-weight: 700;
       font-size: 16px;
     }
   }
-  @media(max-width:318px){
+
+  @media(max-width:300px){
     .cardcontainer {
       display: flex;
       flex-direction: column;
-      background-image:url('./assets/image1.png');
+
       background-size: cover;
       border:solid 3px rgba(22, 162, 197, 1);
       border-radius: 10px;
@@ -1348,116 +977,30 @@
       position: relative;
       top:30px;
       left:2%;
-      padding_right:2% ;
+      padding-right:2% ;
     }
     .cardcontent {
       padding-top: 100px;
       
     }
-    .carddate {
-      position: relative;
-      right:25%;
-      bottom: 6px;
-     
-      font-weight: 700;
-      font-size: 16px;
-    }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:30px;  
-      
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
-    }
+
     .buton{
       background-color:rgba(1, 30, 74, 0);
       border: none;
       color: white;
       position: relative;
       left:11%;
-      top:19px;
+      top:11px;
       font-weight: 700;
       font-size: 16px;
     }
-  }
-  @media(max-width:300px){
-    .cardcontainer {
-      display: flex;
-      flex-direction: column;
-      background-image:url('./assets/image1.png');
-      background-size: cover;
-      border:solid 3px rgba(22, 162, 197, 1);
-      border-radius: 10px;
-      overflow: hidden;
-      color: white;
-      height: 260px;
-      width: 95%; /* Adjust to your preference */
-    }
-    .titre{
-      font-weight: 500;
-      font-size: 18px;
-      position: relative;
-      top:30px;
-      left:2%;
-      padding_right:2% ;
-    }
-    .cardcontent {
-      padding-top: 100px;
-      
-    }
     .carddate {
       position: relative;
-      right:25%;
-      bottom: 6px;
+      left:-28%;
+      bottom: 14px;
      
       font-weight: 700;
       font-size: 16px;
     }
-    .cardbutton {
-      background-color:rgba(1, 30, 74, 0.56);
-      width: 120%;
-      color: white;
-      border:solid 3px rgba(22, 162, 197, 1);
-      margin-bottom: 10px;
-      padding-left: 70px;
-      height: 200px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      display: flex;
-      flex-direction: column;
-      border-right: none;
-      border-left: none;
-      border-bottom: none;
-      position: relative;
-      top:30px;  
-      
-    }
-    .cardbutton:hover {
-      background-color: #005fa3;
-    }
-    .buton{
-      background-color:rgba(1, 30, 74, 0);
-      border: none;
-      color: white;
-      position: relative;
-      left:11%;
-      top:19px;
-      font-weight: 700;
-      font-size: 16px;
-    }
+
   }
