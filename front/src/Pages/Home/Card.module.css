@@ -1,0 +1,327 @@
+.container{
+ width:480px;
+ height: 590px;
+ border: solid 4px rgba(22, 162, 197, 1);
+ border-radius: 12px;
+ display: flex;
+ flex-direction: column;
+ 
+ 
+}
+.Image{
+    padding: 20px;
+    
+
+}
+.titre{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 58.51px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+.para{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29.26px;
+    color: white;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+.Bouton{
+    width: 200px;
+    height: 50px;
+    background-color:  rgba(22, 162, 197, 1);
+    color: rgba(1, 30, 74, 1);
+    align-self: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 39.01px;
+    border-radius: 5px;
+    text-align: center;
+
+    
+}
+
+@media(max-width:1100px){
+    .container{
+        width:40vw;
+        height: 590px;
+       
+       }
+}
+
+@media(max-width:1000px){
+    .container{
+        width:40vw;
+        height: 530px;
+       
+       }
+       .titre{
+        font-weight: 800;
+        font-size: 31px;
+        line-height: 58.51px;
+        align-items: center;
+        color: white;
+        
+        
+        
+    }
+    .para{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29.26px;
+        color: white;
+        padding-left: 1.5%;
+        margin-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Bouton{
+        width: 45%;
+        height: 50px;
+        background-color:  rgba(22, 162, 197, 1);
+        color: rgba(1, 30, 74, 1);
+        align-self: center;
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 0px;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
+}
+
+@media(max-width:800px){
+    .container{
+        width:40vw;
+        height: 480px;
+       
+       }
+       .titre{
+        font-weight: 800;
+        font-size: 3.75vw;
+        line-height: 58.51px;
+        align-items: center;
+        color: white;
+        
+        
+        
+    }
+    .para{
+        font-weight: 400;
+        font-size: 2vw;
+        line-height: 23px;
+        color: white;
+        padding-left: 1.5%;
+        margin-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Bouton{
+        width: 45%;
+        height: 40px;
+        background-color:  rgba(22, 162, 197, 1);
+        color: rgba(1, 30, 74, 1);
+        align-self: center;
+        margin-top: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px;
+        border-radius: 5px;
+        text-align: center;
+        
+    }
+}
+
+@media(max-width:730px){
+    .container{
+        width:40vw;
+        height: 450px;
+       
+       }
+       
+}
+
+@media(max-width:660px){
+    .container{
+        width:40vw;
+        height: 430px;
+       
+       }
+       
+}
+@media(max-width:600px){
+    .container{
+        width:90%;
+        height: 550px;
+        border: solid 4px rgba(22, 162, 197, 1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        
+        
+       }
+       .Image{
+           padding: 4%;
+           
+       
+       }
+       .titre{
+           font-weight: 800;
+           font-size: 31px;
+           line-height: 58.51px;
+           align-items: center;
+           color: white;
+           
+           
+           
+       }
+       .para{
+           font-weight: 400;
+           font-size: 18px;
+           line-height: 29.26px;
+           color: white;
+           padding-left: 1.5%;
+           margin-top: 5px;
+           padding-left: 20px;
+           padding-right: 20px;
+       }
+       .Bouton{
+           width: 45%;
+           height: 50px;
+           background-color:  rgba(22, 162, 197, 1);
+           color: rgba(1, 30, 74, 1);
+           align-self: center;
+           
+           font-weight: 700;
+           font-size: 29px;
+           line-height: 39.01px;
+           border-radius: 5px;
+           text-align: center;
+           
+       }
+}
+
+
+@media(max-width:450px){
+    .container{
+        width:90%;
+        height: 450px;
+             
+       }
+       .Image{
+           padding: 4%;
+           
+       
+       }
+       .titre{
+           font-weight: 800;
+           font-size: 25px;
+           line-height: 40px;
+           align-items: center;
+           color: white;
+           
+           
+       }
+       .para{
+           font-weight: 400;
+           font-size: 16px;
+           line-height: 25px;
+           color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin-top: 5px;
+       
+       }
+       .Bouton{
+           margin-top: 4px;
+           font-size: 20px;
+           height: 40px;
+           line-height: 10px;
+
+       }
+}
+
+@media(max-width:350px){
+    .container{
+        width:90%;
+        height: 380px;
+             
+       }
+       .Image{
+           padding: 4%;
+           
+       
+       }
+       .titre{
+           font-weight: 800;
+           font-size: 23px;
+           line-height: 40px;
+           align-items: center;
+           color: white;
+           
+           
+       }
+       .para{
+           font-weight: 400;
+           font-size: 14px;
+           line-height: 20px;
+           color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin-top: 5px;
+       
+       }
+       .Bouton{
+           margin-top: 4px;
+           font-size: 17px;
+           height: 35px;
+           line-height: 10px;
+
+       }
+}
+
+@media(max-width:300px){
+    .container{
+        width:90%;
+        height: 350px;
+             
+       }
+       .Image{
+           padding: 4%;
+           
+       
+       }
+       .titre{
+           font-weight: 800;
+           font-size: 20px;
+           line-height: 40px;
+           align-items: center;
+           color: white;
+           
+           
+       }
+       .para{
+           font-weight: 400;
+           font-size: 12px;
+           line-height: 18px;
+           color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin-top: 5px;
+       
+       }
+       .Bouton{
+           margin-top: 3px;
+           font-size: 17px;
+           height: 35px;
+           line-height: 1px;
+
+       }
+}

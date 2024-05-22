@@ -1,0 +1,189 @@
+ 
+.Image {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+.container1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    
+    
+  }
+  .container1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This will stretch the image to fill the container */
+}
+
+/* Slider.module.css */
+.slick-slider .slick-dots li.slick-active button:before {
+  color: rgb(72, 255, 0) !important; /* Ensures this styling has a higher priority */
+  display: none !important;
+  
+}
+@media(max-width:836px){
+  .Image {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .container1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    
+    
+  }
+}
+@media(max-width:692px){
+  .Image {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .container1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    
+    
+  }
+}
+@media(max-width:530px){
+  .Image {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .container1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 180px;
+    
+    
+  }
+}
+@media(max-width:460px){
+  .Image {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .container1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 160px;
+    
+    
+  }
+}
+@media(max-width:355px){
+  .Image {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .container1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 140px;
+    
+    
+  }
+
+}
+@media(max-width:325px){
+  .Image {
+    width: 100%; /* Makes the image fill the container */
+    height: 100%;
+    display: block; /* Removes any default inline margins */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .container1 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+    /* Ensure box-sizing is border-box to include padding and border in the element's total width and height */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 125px;
+    
+    
+  }
+
+}
+

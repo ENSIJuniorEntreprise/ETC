@@ -1,0 +1,231 @@
+.titre{
+    color: rgba(252, 150, 1, 1);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 93.75px;
+    font-family:Roboto ;
+    margin-left: 150px;
+
+    
+}
+.para{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45.1px;
+    font-family: Montserrat;
+    margin-left: 150px;
+    padding-right: 180px;
+    
+    
+
+}
+@media(max-width:1192px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 93.75px;
+        font-family:Roboto ;
+        margin-left: 100px;
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45.1px;
+        font-family: Montserrat;
+        margin-left: 100px;
+        padding-right: 80px;
+        
+        
+    
+}
+}
+
+@media(max-width:1048px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 93.75px;
+        font-family:Roboto ;
+        margin-left: 100px;
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        font-family: Montserrat;
+        margin-left: 100px;
+        padding-right: 80px;
+        
+        
+    
+}
+}
+
+@media(max-width:861px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+        font-family:Roboto ;
+        margin-left: 50px;
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35px;
+        font-family: Montserrat;
+        margin-left: 50px;
+        padding-right: 50px;
+        
+        
+    
+}
+}
+@media(max-width:690px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 55px;
+        font-family:Roboto ;
+        margin-left: 5%;
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        font-family: Montserrat;
+        margin-left: 5%;
+        padding-right: 30px;
+        
+        
+    
+}
+}
+@media(max-width:570px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 50px;
+        font-family:Roboto ;
+        margin-left: 5%;
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 35px;
+        font-family: Montserrat;
+        margin-left: 5%;
+        padding-right: 10px;
+        
+        
+    
+}
+}
+@media(max-width:450px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 70px;
+        font-family:Roboto ;
+        margin-left: 6%;
+        position: relative;
+        top:15px;
+        padding-bottom: 10px;
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+        font-family: Montserrat;
+        margin-left: 6%;
+        padding-right: 3px;
+        
+        
+    
+}
+}
+@media(max-width:330px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 50px;
+        font-family:Roboto ;
+        margin-left: 5%;
+        position: relative;
+        top:18px;
+        padding-bottom: 10px;
+        
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        font-family: "Montserrat";
+        margin-left: 5%;
+        padding-right: 1px;
+        
+        
+    
+}
+}
+@media(max-width:307px){
+    .titre{
+        color: rgba(252, 150, 1, 1);
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 70px;
+        font-family:"Roboto" ;
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    
+        
+    }
+    .para{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        font-family: "Montserrat";
+        padding-right: 10px;
+        padding-left: 10px;
+
+        
+        
+    
+}
+}
+
+
+
+
+
