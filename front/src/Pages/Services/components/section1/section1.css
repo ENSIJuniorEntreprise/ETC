@@ -1,10 +1,122 @@
-#section1{
+.servicesection {
+    position: relative;
+  }
+  
+  #section1 {
     margin: 0%;
     opacity: 30%;
-
-}
-#section11{
+  }
+  
+  #section11 {
     width: 100%;
     height: 600px;
-}
+  }
+  
+  #log {
+    width: 600px;
+    position: absolute;
+    top:100px;
+  }
+  
+  #log img {
+    width: 100%;
+    height: 350px;
+  }
+  
+  #prest {
+    background-color: rgba(22, 162, 197, 1);
+    width: 82%;
+    position: relative;
+    top:-80px;
 
+  }
+  
+  #prest h1 {
+    text-decoration: underline rgba(1, 30, 74, 1);
+    padding-top: 1%;
+    font-family: montserrat;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 48.76px;
+    margin-left: 4%;
+  }
+  
+  #prest p {
+    font-family: montserrat;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 48.76px;
+    margin: 0% 3%;
+    margin-bottom: 1%;
+  }
+  
+  .section1Service {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  @media (max-width:1000px) and (min-width:794px){
+    #log{
+        width: 60%;
+    }
+    #log img{
+        
+        height: 300px;
+    }
+    #prest{
+        width: 85%;
+    }
+    #prest p{
+        font-size: 2vw;
+        line-height: 1.5;
+    }
+    #prest h1{
+        font-size: 2.5vw;
+    }
+}
+@media (max-width:794px){
+    #log{
+        width:60%;
+    }
+
+    #log img{
+        height: 250px;
+    }
+    #prest{
+        width: 85%;
+    }
+    #prest p{
+        font-size: 3vw;
+        line-height: 1.2;
+    }
+    #prest h1{
+        font-size: 3.5vw;
+        line-height: 1.5;
+    }
+    #section11{
+        height: 400px;
+    }
+}
+@media (max-width:500px){
+    #section2{
+        top: 20%;
+    }
+    #log{
+        margin-bottom: 20px;
+    }
+    #log img{
+        object-fit: contain;
+        height: 200px;
+    }
+    #prest h1{
+        font-size: 5vw;
+        padding: 0.5%;
+    }
+    #prest p{
+        font-size: 3.5vw;
+        padding: 0.3%;
+    }
+}

@@ -1,7 +1,7 @@
 import './section20.css'
 export default function Section20({titre,im,parag,lin,but1,but2,but3,but4}){
     return(
-        <div>
+        <div >
             <div id='section20'>
                 <div id='section201'>
                     <h1>{titre}</h1>
