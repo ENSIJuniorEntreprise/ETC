@@ -1,0 +1,95 @@
+/*part two*/
+.containervs{
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+  }
+.vispic{
+    display: flex;
+    flex-direction: row;
+    gap:4vw;
+}
+.rect2{
+    position: relative;
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: 10vw;
+} 
+.rect2 img , .rect3 img{
+    width: 20vw;
+}
+.text h1 , .text p{
+    color: #FFFFFF;
+}
+.text h1, .text2 h1{
+    font-size: 4vw;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 2vw;
+}
+.text p , .text2 p{
+    font-size: 2.25vw;
+    padding-left: 30px;
+    margin-top: 2vw;
+}
+.text{
+    margin-right: 11vw;
+    border: 3.5px solid #16A2C5;
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.text2{
+    margin-left: 10vw;
+    border: 3.5px solid #16A2C5;
+    border-radius: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.text2 h1 , .text2 p{
+    color: #FFFFFF;
+}
+.rect3{
+    position: relative;
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: transparent;
+    margin-right: 11vw;
+}
+@media (max-width:702px){
+    .text, .text2{
+        padding: 0px ;
+    }
+    .text h1 , .text p , .text2 h1, .text2 p{
+        padding-left: 20px;
+    }
+}
+@media (max-width:463px){
+    .text, .text2{
+        padding: 0px ;
+        border: 2.5px solid #16A2C5;
+    }
+    .text h1 , .text p , .text2 h1, .text2 p{
+        padding-left: 15px;
+    }
+}
+@media (max-width:488px){
+    .text, .text2{
+        padding: 0px ;
+        border: 2px solid #16A2C5;
+    }
+    .text h1 , .text p , .text2 h1, .text2 p{
+        /*padding-left: 10px;*/
+       /* margin-top: 3vw;*/
+    }
+    .text h1 , .text2 h1{
+        padding-right: 10px;
+        margin-top: 4vw;
+        font-size: 3.5vw;
+    }
+    .text p , .text2 p{
+        font-size: 2vw;
+    }
+}
+

@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Pages/Home/Home";
-// import About from "./Pages/About/About";
+import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services";
 import News from "./Pages/News/News";
 import Contact from "./Pages/Contact/Contact";
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/news" element={<News />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/about" element={<About />} /> 
         <Route path="/article" element={<Article />} />
         <Route path="/services" element={<Services />} />
         <Route path="/Loader" element={<Loader />} />
