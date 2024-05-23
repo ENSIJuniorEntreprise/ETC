@@ -1,0 +1,66 @@
+/*part one*/
+
+.topp img{
+    width : 100%;
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    margin:0;
+}
+.recapropos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #16A2C5;
+    width: 70%; 
+    padding: 50px;
+    gap:0.5vw;
+}
+.recapropos h1 , .recapropos p{
+    color:  #FFFFFF;
+    background-color: transparent;
+}
+.recapropos h1{
+     font-size: 4.5vw;
+}
+.line{
+    border-top: 7px solid #011E4A;
+    background-color: transparent;
+    width: 32%; 
+}
+
+.recapropos p{
+    font-size: 2.25vw;
+}
+.parentp{
+    display: flex;
+    justify-content: center;
+    margin-top: -13vw;
+    background-color: transparent;
+}
+@media (max-width:800px){
+    .recapropos{
+        padding: 30px;
+    }
+    .line{
+        border-top: 5px solid #011E4A;
+    }
+}
+@media (max-width:520px){
+    .recapropos{
+        padding: 20px;
+    }
+    .line{
+        border-top: 3.5px solid #011E4A;
+    }
+}
+@media (max-width:400px){
+    .recapropos{
+        padding: 15px;
+        gap : 1vw;
+    }
+    .line{
+        border-top: 2.5px solid #011E4A;
+    }
+}
