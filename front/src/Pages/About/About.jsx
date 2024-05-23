@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import style from './About.module.css'
+import './About.css'
 import rectangle147 from './assets/Rectangle 147.png'
 import c1 from './assets/circle1.png'
 import c2 from './assets/circle2.png'
@@ -21,7 +21,7 @@ function About(){
     }, [images.length]);
     return(
         <>
-        <div className={style.container}>
+        <div className='container'>
             <Topage/>
             <Secondpart/>
             <h2 style={{ fontFamily: 'roboto' }}>Nos Valeurs</h2>
@@ -31,8 +31,8 @@ function About(){
            <h2 style={{ fontFamily: 'roboto' }}>Bureau éxécutif</h2>
            <Bureau/>
             <h2 style={{ fontFamily: 'roboto' }}>Galeries</h2>
-            <div className={style.slidg}>
-            <div className={style.galerryslider}>
+            <div className='slidg'>
+            <div className='galerryslider'>
                 {images.map((img, index) => (
                     <img
                         key={index}
@@ -42,7 +42,7 @@ function About(){
                     />
                 ))}
             </div>
-            <div className={style.ponct}>
+            <div className='ponct'>
             {images.map((_, index) => (
             <img
             key={index}

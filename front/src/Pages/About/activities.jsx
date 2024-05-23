@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import style from './activities.module.css'
+import './activities.css'
 import act1 from './assets/act1.png'
 import act2 from './assets/act2.png'
 import act3 from './assets/act3.png'
@@ -17,9 +17,9 @@ function Activities(){
 
     return(
         <>
-           <div className={style.nosactivities}>
-           <div className={style.activities}>
-                <div className={style.act1} 
+           <div className='nosactivities'>
+           <div className='activities'>
+                <div className='act1' 
                      onMouseEnter={() => setHovered('act1')} 
                      onMouseLeave={() => setHovered(null)} 
                      onClick={() => handleClick('act1')}>
@@ -29,7 +29,7 @@ function Activities(){
                     />
                 </div>
 
-                <div className={style.act2} 
+                <div className='act2' 
                      onMouseEnter={() => setHovered('act2')} 
                      onMouseLeave={() => setHovered(null)} 
                      onClick={() => handleClick('act2')}>
@@ -39,7 +39,7 @@ function Activities(){
                     />
                 </div>
 
-                <div className={style.act3} 
+                <div className='act3' 
                      onMouseEnter={() => setHovered('act3')} 
                      onMouseLeave={() => setHovered(null)} 
                      onClick={() => handleClick('act3')}>
@@ -49,10 +49,10 @@ function Activities(){
                     />
                 </div>
             </div>
-                <div className={style.description}>
+                <div className='description'>
                     <img src={clicked === 'act2' ? act2 : clicked === 'act3' ? act3 : act1} /><br/>
                     <h3>{clicked === 'act2' ? 'Evènementiel' : clicked === 'act3' ? 'Développement des ressources humaines' : 'Projet'}</h3><br/>
-                    <div className={style.line1}></div><br/>
+                    <div className='line1'></div><br/>
                     <p>{clicked === 'act3' ? 'Développement des ressources humaines ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : clicked === 'act2' ? 'Evénementiel ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.' : 'Projet ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum.'}</p>
                 </div>
             </div>
