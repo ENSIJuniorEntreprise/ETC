@@ -12,6 +12,10 @@
     gap:2vw;
     box-sizing: border-box;
 }
+.articlenews div h2, .articlenews div p {
+    color: #FFFFFF!important;
+}
+
 .articlenews img{
     margin: auto 0;
     height: 30vh;

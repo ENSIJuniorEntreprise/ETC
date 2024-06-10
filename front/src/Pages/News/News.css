@@ -16,6 +16,13 @@ body{
     background: url(../../Assets/e9a34ff59039d046844b58cf3e6ef1a0.jpg) fixed center;
     
 }
+#numbers p{
+    color: #FFFFFF!important;
+}
+#box h1, #box p{
+    color: #FFFFFF!important;
+
+}
 #divpic div{
     height: 100%;
     width: 100%;
