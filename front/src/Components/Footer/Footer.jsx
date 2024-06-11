@@ -57,23 +57,23 @@ function Footer() {
 
 
         <div className="footer-contact lien">
-          {/* <h3>Contact</h3> */}
+          <h3>Contact</h3> 
           <div className="span">
 
-            {/* <div className="contactt">
+             <div className="contactt">
             <FaPhone size={"20px"} className="icon" />
             <span className="footer-span">29 903 814</span>
-            </div> */}
+            </div> 
 
-            {/* <div className="contactt">
+             <div className="contactt">
               <FaAt size={"20px"} className="icon" />
               <span className="footer-span mail">etc.contact.je@gmail.com</span>
-            </div> */}
+            </div>
 
-            {/* <div className="contactt">
+             <div className="contactt">
             <BsGeoAlt size={"20px"} className="icon" />
               <span className="footer-span mail lieu">Ecole Nationale des Sciences et Technologies Avancées de Borj Cédria, Hammam Chott, Tunisia</span>
-            </div> */}
+            </div> 
           </div>
 
           {/*  */}
