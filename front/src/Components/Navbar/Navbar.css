@@ -130,7 +130,7 @@
          
      }
      .nav{
-         background-color: rgba(31, 33, 45, 0.95);
+         background-color: #011e4a4e;
          color:#E0DED2;
          font-size: 25px;
   
@@ -140,7 +140,7 @@
          z-index:99;
          position: absolute;
          text-decoration: none;
-         background-color: var(--color-bg-variant);
+         background-color: #011e4ad5;
          left:0;
          top:10vw;
          /* height: 50vh; */
@@ -170,7 +170,7 @@
          background-color: white;
          margin-right: 7vw;
          margin-top: 1vw;
-         background-color: transparent;
+         background-color: #011E4A;
   
      }
      .Nav-btn svg{

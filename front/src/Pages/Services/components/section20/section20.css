@@ -1,113 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #section20{
-    display: flex;
+    display: grid;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
+
+}
+.servicepart1{
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap:2%;
+    align-items: end;
+    
 
 }
 #section201{
-    width: 80vw;
+    width: 100%;
 }
 #section201 h1{
     color: rgba(252, 150, 1, 1);
-    font-family: roboto;
+    font-family: "roboto";
     font-size: 30px;
     font-weight: 900;
-    line-height: 48.76px;
     margin-left: 0%;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 #section201 img{
     width: 100%;
-    height: 400px;
+    height: 330px;
     border-radius: 20px;
+    object-fit: cover;
+
 }
 #section202{
     border: 4px solid rgba(22, 162, 197, 1);
     border-radius: 20px;
-    margin: 3% 0% 3% 0%;
-    width: 80vw;
+    width: 100%;
+    height: 330px;
+    position: relative; 
+
+
 }
 #section220{
-    margin: 3%;
+    padding: 5%;
 }
 #section202 p{
     display: inline;
-    font-family: Montserrat;
-    font-size: 19px;
-    font-weight: 600;
-    line-height: 48.76px;
+    font-family: "Montserrat";
+    font-size: 1.17rem;
+    font-weight: 400;
     text-align: left;
     color: rgba(255, 255, 255, 1);
-    padding: 2%;
+    line-height: 1.5;
 }
 #titre1{
     display: inline;
     color: rgba(252, 150, 1, 1);
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 50px;
+    font-family: "Montserrat";
+    font-size: 1.17rem;
+    font-weight: 600;
     text-align: left;
     padding-left: 3%;
 }
-#section202 button{
+#section202 button {
+    position: absolute; 
+    top: 87%; 
+    left: 80%; 
+    transform: translate(-50%, -50%); 
     background-color: rgba(22, 162, 197, 1);
-    width: 20%;
-    height: 10%;
-    margin:0% 10% 3% 70% ;
+    padding: 2px 20px;
+    white-space: nowrap; 
 }
 #section202 button a{
     color: rgba(1, 30, 74, 1);
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 19px;
     font-weight: 700;
-    line-height: 39.01px;
     text-align: center;
     text-decoration: none;
-    padding: 10%;
 }
+
+#section202 button:hover {
+    background-color: #24acd1;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+  }
+  #section202 button a:hover {
+    background-color: #24acd1;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+  }
+
 #section203{
     display: flex;
     flex-direction: column ;
     row-gap: 10px;
     align-items: center;
-    width: 80vw;
-    padding: 0% 3%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    padding: 0% 0%;
 }
 .se{
     display: flex;
     align-items: center;
     column-gap: 10px;
     width: 100%;
+    gap:2%;
 }
-.se button{
-    background-color:rgba(22, 162, 197, 1) ;
+.se button {
+    background-color: rgba(22, 162, 197, 1);
     border-radius: 20px;
     color: rgba(1, 30, 74, 1);
     width: 100%;
-    height: 150px;
-    font-family: Montserrat;
+    height: 100px;
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 800;
-    line-height: 1.5;
     text-align: center;
+    transition: all 0.3s ease; 
+    border: none; 
+    cursor: pointer; 
+
 }
-@media (max-width:1000px) and (min-width:794px){
-    #section201,#section203{
-        width: 85vw;
+
+.se1:hover {
+    background-color: rgba(22, 162, 197, 1) ;
+    color: #FFFFFF;
+    box-shadow: -4px -4px 16px rgba(22, 162, 197, 1);/* top left shadow */
+}
+
+.se2:hover {
+    background-color: rgba(22, 162, 197, 1) ;
+    color: #FFFFFF;
+    box-shadow: 4px -4px 16px rgba(22, 162, 197, 1);/* top right shadow */
+}
+
+.se3:hover {
+    background-color: rgba(22, 162, 197, 1) ;
+    color: #FFFFFF;
+    box-shadow: -4px 4px 16px rgba(22, 162, 197, 1); /* Bottom left shadow */
+}
+
+.se4:hover {
+    background-color: rgba(22, 162, 197, 1) ;
+    color: #FFFFFF;
+    box-shadow: 4px 4px 16px rgba(22, 162, 197, 1); /* Bottom right shadow */
+}
+
+@media (max-width:1250px){
+    #section202 p, #titre1{
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width:1100px){
+    #section202 p, #titre1{
+        font-size: 1.6vw;
+    }
+}
+
+@media (max-width:1000px){
+    .servicepart1{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        align-items: end;
+        
+    
+    }
+    #section201{
+        width: 100%;
+    }
+
+    #section203{
+        width: 80%;
     }
     #section201 img{
         height: 280px;
+        width: 100%;
     }
     #section202{
-        width: 84.5%;
+        width: 100%;
+        padding: inherit;
+        height: 250px;
     }
     .se button{
         font-size: 2vw;
-        line-height: 1.5;
     }
-    #section202 p{
+    #section202 p,#titre1{
         font-size: 2vw;
-        line-height: 1.5;
         
     }
     .se button{
@@ -115,82 +202,142 @@
     }
     .titre1{
         font-size: 2.3vw;
-        line-height: 1;
     }
+
+    #section202 button {
+
+        left: 88%; 
+    }
+    #section220{
+        padding:3%;
+    }
+    #section202 button {
+        font-size: 1.2rem;
+        padding: 0.2rem 1rem;
+    }
+
 }
-@media (max-width:794px){
-    #section201,#section203{
-        width: 85%;
+@media (max-width:900px){
+    #section202 p, #titre1{
+        font-size: 2vw;
     }
     #section202{
-        width: 84.5%;
+        height: 230px;
+    }
+    #section202 button {
+        font-size: 1vw;
+        padding: 0.3vw 1vw;
+        top:84%;
+    }
+    
+}
+
+@media (max-width:750px){
+    #section202 p, #titre1{
+        font-size: 2vw;
+    }
+    #section202{
+        height: 210px;
+    }
+    #section202 button a{
+        font-size: 1rem!important;
+        padding: 0.3vw 1vw;
+        top:84%;
+    }
+
+    
+}
+
+@media (max-width:650px){
+    #section202 p, #titre1{
+        font-size: 2.3vw;
+    }
+    #section202{
+        height: 220px;
+    }
+    .se button {
+        margin-top:0;
+        height: 80px;
+        
+    
+    }
+    .servicepart1{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #section203{
+        width: 90%;
+        margin-left: 5%;
+   
+    }
+    #section202 button {
+        font-size: 0.8vw;
+        padding: 0.3vw 1vw;
+        left: 84%;
     }
     .se button{
         font-size: 1rem;
-        line-height: 1.5;
     }
-    #section202 p{
-        font-size: 2vw;
-        line-height: 1.5;
+    #section202{
+        height: auto;
+        padding-bottom: 40px;
+    
+    
     }
-    #section202 button{
-        width: 30%;
-        margin-left: 60%;
-    }
-    #section202 button a{
-        font-size: 2.5vw;
-        line-height: 1.2;
+    
+}
+
+@media (max-width:550px){
+    #section202 p, #titre1{
+        font-size: 0.8rem;
+        line-height: normal;
     }
     .se button{
-        height:100px;
+        font-size: 0.9rem;
     }
-    #titre1{
-        font-size: 2.7vw;
-        margin: 0;
-   
+    #section202{
+        border: 2px solid #24acd1
     }
-    #section201 img{
-        height: 180px;
-    }
-
 }
-@media (max-width:500px){
-    #section20{
-        gap: 10px;
-    }
 
+@media (max-width:450px){
+    #section202 p, #titre1{
+        font-size: 1rem;
+
+    }
+    #section202 button {
+        top: 90%; 
+
+    }
     .se{
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        justify-content: center;
+        gap:8px;
     }
-    #section203{
-        gap: 10px;
+    #section203 {
+        gap:8px;
+        margin-top: 15px;
     }
-    .se button{
-        height: 80px;
-        font-size: 3.6vw;
-        line-height: 1.5;
+
+
+ 
+}
+
+@media (max-width:350px){
+    #section202 p, #titre1{
+        font-size: 0.9rem;
+
     }
-    #section202 button{
-        width: 40%;
-        margin-left: 50%;
-        
-    }
-    #section202 button a{
-        font-size: 3vw;
-        line-height: 1.2;
-    }
-    #section202 p{
-        font-size: 3vw;
-        line-height: 1.2;
-    }
-    #titre1{
-        font-size: 3.5vw;
-        line-height: 1.3;
+    #section202 button {
+        left: 80%; 
+        top:93%
+
     }
     #section201 h1{
-        font-size: 5vw;
+        font-size: 1.4rem;
     }
+ 
 }
+
+
+

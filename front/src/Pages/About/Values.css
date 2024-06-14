@@ -1,0 +1,225 @@
+.values {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4%;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+
+.values div {
+    width: 20vw; 
+    height: 18vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    position: relative; 
+}
+
+.values div img {
+    width: 70%;
+    height: auto;
+    border-radius: 12px;
+    transition: opacity 0.5s ease; 
+}
+
+.img1 p, .img2 p, .img3 p {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.img1, .img2, .img3 {
+    border: 3px solid #16A2C5;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.values h5, .values h6 {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box; 
+    
+}
+
+ .values div:hover h6 {
+    display: block;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    
+   
+}
+.img1:hover, .img2:hover, .img3:hover{
+    background-color: #16A2C5;
+}
+
+.values div:hover h5 {
+    top: 10%;
+}
+
+.values div:hover h6 {
+    top: 50%;
+    transform: translateY(-50%);
+    height: 18vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.values div:hover img {
+    display: none; 
+}
+
+
+
+@media (max-width: 1200px) {
+    .values div, .values div:hover h6 {
+        width: 22vw; 
+        height: 22vw; 
+    }
+    .img1 p, .img2 p, .img3 p {
+        font-size: 2.5vw; 
+    }
+}
+@media (max-width: 1000px) {
+    .values div , .values div:hover h6{
+        width: 22vw; 
+        height: 20vw; 
+    }
+    .img1 p, .img2 p, .img3 p {
+        font-size: 2.5vw; 
+    }
+    .img1:hover p, .img2:hover p, .img3:hover p {
+        margin-top: -5%;
+    }
+    .values {
+        gap: 4%;
+    }
+    .values div:hover h6 {
+        font-size: 1.6vw;
+       
+    }
+
+}
+@media (max-width: 800px) {
+    .values div , .values div:hover h6 {
+        width: 25vw; 
+        height: 23vw; 
+    }
+    .img1 p, .img2 p, .img3 p {
+        font-size: 2.5vw; 
+    }
+    .values {
+        gap: 4%;
+    }
+    .values div:hover h6 {
+        font-size: 1.8vw;
+       
+    }
+}
+@media (max-width: 700px) {
+    .values div, .values div:hover h6 {
+        width: 27vw; 
+        height: 25vw; 
+    }
+    .img1 p, .img2 p, .img3 p {
+        font-size: 3vw; 
+    }
+    .values {
+        gap: 4%;
+    }
+    .values div:hover h6 {
+        font-size: 2vw;
+        padding-left: 8px;
+        padding-right: 8px;
+       
+    }
+}
+
+@media (max-width: 550px) {
+    .values div, .values div:hover h6 {
+        width: 28vw; 
+        height: 28vw; 
+    }
+    .img1 p, .img2 p, .img3 p {
+        font-size: 3.5vw; 
+    }
+    .values {
+        gap: 3%;
+    }
+    .values div:hover h6 {
+        margin-top: 10%;
+        font-size: 2vw;
+       
+    }
+}
+
+@media (max-width: 450px) {
+    .values div img {
+        width: 100%;
+    }
+    .values div, .values div:hover h6 {
+        width: 28vw; 
+        height: 32vw; 
+    }
+    .values div:hover h6 {
+        font-size: 2.5vw;
+        padding-left: 4px;
+        padding-right: 4px;
+       
+    }
+ 
+
+}
+
+@media (max-width: 400px) {
+    .values div, .values div:hover h6 {
+        width: 70vw; 
+        height: 50vw;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+
+    }
+    .img1 p, .img2 p, .img3 p {
+        font-size: 6vw; 
+    }
+    .img1:hover p, .img2:hover p, .img3:hover p {
+        margin-top: 0%;
+    }
+    .values div img {
+        width: 50%;
+    }
+    .values {
+        gap: 15px;
+    }
+
+    .values {
+        display: flex;
+        flex-direction: inherit;
+        justify-content: center;
+        
+    }
+    .values div:hover h6 {
+        font-size: 4vw;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 0%;
+       
+    }
+    
+}

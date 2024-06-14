@@ -3,6 +3,7 @@ export default function Section20({titre,im,parag,lin,but1,but2,but3,but4}){
     return(
         <div >
             <div id='section20'>
+                <div className='servicepart1'>
                 <div id='section201'>
                     <h1>{titre}</h1>
                     <img src={im} alt="" />
@@ -14,14 +15,15 @@ export default function Section20({titre,im,parag,lin,but1,but2,but3,but4}){
                     </div>
                     <button><a href={lin}>Voir plus  </a></button>
                 </div>
+                </div>
                 <div id='section203'> 
                     <div className='se'>
-                        <button>{but1}</button>
-                        <button>{but2}</button>
+                        <button className='se1'>{but1}</button>
+                        <button className='se2'>{but2}</button>
                     </div>
                     <div className='se'>
-                        <button>{but3}</button>
-                        <button>{but4}</button>
+                        <button className='se3'>{but3}</button>
+                        <button className='se4'>{but4}</button>
                     </div>
                 </div>
             </div>

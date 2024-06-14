@@ -9,8 +9,13 @@
     gap: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 2%;
 
 
+}
+
+.footer_container1{
+    padding-top: 0px!important;
 }
 
 .footer::before{
@@ -26,14 +31,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap:15px;
 }
 
 .slogann {
     color: #FFFFFF;
-    font-size: 30px;
-    /* padding-bottom: 20%; */
+    font-size: 1.5rem;
     font-family: 'Ink free', sans-serif;
-    /* padding-left: 10%; */
 
 }
 .leader{
@@ -52,6 +56,7 @@
 
 .span a {
     text-decoration: none;
+
 }
 
 .span a:hover {
@@ -60,17 +65,20 @@
 
 }
 
+.footer-span{
+    font-weight: 500!important;
+}
+
 .mail:hover {
     color: #16A2C5;
-
 }
 
 
 .logo-img1 {
-    width: 60%;
+    width: 50%;
     height: auto;
     padding-top: 3%;
-    padding-left: 10%;
+
 
 }
 
@@ -150,10 +158,6 @@
     gap:3%;
 }
 
-.icon svg {
-    width: 100px;
-    height: 100px; /* Adjust height as needed */
-}
 
 
 .part22 h3::after{
@@ -247,7 +251,7 @@
 
 .input-field {
     padding: 10px;
-    width: 300px;
+    width: 200%;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     background-color: #D9D9D9;
@@ -269,14 +273,8 @@
   .newsletter{
     display: flex;
     align-items: center;
-  }
-  .footerPart2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:23%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-left: 50%;
+    width: 200%;
 
   }
 
@@ -290,6 +288,7 @@
 .footer-span{
     width: 300px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 
@@ -314,81 +313,83 @@
     font-size: 13px!important;
 }
 
+.icon{
+    font-size: 20px !important;
+}
+
+@media (max-width:1215px) {
+    .footer_container{
+        grid-template-columns: 40% 20% 40%;
+        gap:2%;
+    }
+}
 
 @media (max-width:1100px) {
     .part22 {
         margin-left: 30%;
         font-size: medium;
     }
+    .newsletter{
+        margin-left: 30%;
+        width: 200%;
+    }
     .footer_container{
         padding-bottom: 10px;
+    }
+    .input-field{
+        width: 100%;
+    }
+    .slogann{
+        font-size: 1.1rem;
+    }
+    .logo-img1{
+        width: 70%;
     }
 }
 
 @media (max-width:950px) {
     .lien {
-        white-space: nowrap;
         overflow: visible;
     }
 
-    .footer_container {
-        gap: 3%;
-
-    } 
 
     .logo-img {
         width: 100%;
-    }
-    .footer-a,.span .footer-span{
-        font-size: small;
-    }
-
-} 
-
-@media (max-width:850px) {
-    .footer_container {
-        padding-top: 10px;
-    }
-
-    .logo-img {
-        width: 100%;
-    }
-
-    .lien h3 {
-        font-size: 1em;
-    }
-
-    .footer-a {
-        font-size: 11px;
-
-    }
-
-    .footer-span {
-        font-size: 17px;
-
-    }
-
-    .icones {
-        width: 20px;
-    }
-
-    .social .footer-a {
-
-        height: 30px;
-        width: 30px;
-        border-radius: 100%;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        margin: 10px 10px 10px 0px;
     }
     .footer-a,.span .footer-span{
         font-size: 12px;
     }
+    .icones{
+        width: 25px;
+        height:25px;
+    }
+    .social .footer-a{
+        width: 40px;
+        height:40px;
+    }
+    .input-field,.subscribe{
+        height: 40px;
+    }
+    .input-field{
+        width: 80vw;
+    }
+    .subscribe{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1rem;
+    }
+    .lieu{
+        font-size: 10px!important;
+    }
+    .span{
+        margin-top: 15px!important;
+    }
+    .copy{
+        font-size: 1rem!important;
+    }
 
-}
+} 
 
 
 
@@ -404,7 +405,7 @@
     }
 
     .logo-img1 {
-        width: 50%;
+        width: 70%;
         padding-left: inherit;
 
     }
@@ -419,6 +420,7 @@
     .slogann{
         padding-bottom: inherit;
         padding-left: inherit;
+        font-size: 1.3rem;
 
     }
 
@@ -439,13 +441,23 @@
         height: 30px;
         white-space: nowrap;
         overflow: visible;
-        margin-left: 20vw;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
     }
 
     .part22 ul {
         display: flex;
         flex-direction: row;
         gap: 3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
 
     }
 
@@ -529,25 +541,44 @@
         white-space: wrap;
     }
     
-    .footerPart2{
-        flex-direction: column;
-        gap:30px;
-        margin-top: 0;
-    }
     .input-field{
         width:350px;
+    }
+    .newsletter{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer-contact h3::after{
+
+        width: 6.2rem;
+        
+    }
+    .footer-contact h3{
+        font-weight: 700;        
     }
 }
 
 @media (max-width:600px) {
-    .part22 {
-        width: 100%;
-        height: 30px;
-        white-space: nowrap;
-        overflow: visible;
-    }
+   
     .slogann{
-        font-size: 5vw;
+        font-size: 1.3rem;
+    }
+    
+    .footer-contact h3{
+        font-size: 1.3rem !important;
+        text-align: center;
+
+    }
+    .footer-contact, .span{
+        width:90%;
+    }
+    span.footer-span, .contactt.icon{
+        font-size: 0.9rem!important;
     }
 }
 
@@ -556,9 +587,14 @@
         width:300px;
     }
     .icones{
-        width:30px;
-        height: 30px;
+        width:25px;
+        height: 25px;
     }
+    .social .footer-a {
+        width:45px;
+        height: 45px;
+    }
+    
 }
 
 @media (max-width:470px) {
@@ -571,8 +607,8 @@
         gap: 2%;
         justify-content: center;
     }
-    .slogann{
-        font-size: x-large;
+    .slogann,.copy{
+        font-size: 1.2rem;
     }
 
     .part11 {
@@ -587,9 +623,7 @@
     }
 
 
-    .slogann{
-        padding-bottom: 25%;
-    }
+   
 
     .footer ul .footer-a {
         font-size: 3vw;
@@ -598,9 +632,7 @@
 
     }
 
-    .part22 {
-        margin-left: 13vw;
-    }
+    
 
 
 
@@ -610,10 +642,7 @@
     }
     
 
-    .icones {
-        width: 4.7vw;
-        height: 4.7vw;
-    }
+  
 
     .social .footer-a {
 
@@ -643,22 +672,16 @@
     }
 
 
-    .icones {
-        width: 70%;
-        height: 75%;
-    }
+  
 
-    .footer .copy {
-        font-size: 2.8vw;
-
+    span.footer-span, .contactt.icon{
+        font-size: 0.8rem!important;
     }
 
 }
 
 @media (max-width:433px) {
-    .slogann{
-        font-size: 4.5vw
-    }
+    
 
     .part11 {
         gap: 10px;
@@ -681,10 +704,7 @@
 
 
 
-    .icones {
-        width: 4.7vw;
-        height: 4.7vw;
-    }
+    
 
 
 
@@ -694,10 +714,7 @@
     }
 
 
-    .icones {
-        width: 70%;
-        height: 75%;
-    }
+    
     .input-field{
         width:250px;
     }
@@ -706,12 +723,8 @@
         font-size: 2.8vw;
 
     }
-    .logo-img1 {
-        width: 80%;
-    }
-    .part22{
-        margin-left: 10vw;
-    }
+    
+
 }
 
 @media (max-width:400px) {
@@ -725,12 +738,15 @@
         padding-top: inherit;
         padding-top: 3px;
     }
+    .copy,.slogann{
+        font-size: 0.9rem!important;
+    }
 }
 
 @media (max-width:350px) {
 
-    .logo-img {
-        width: 80%;
+    .copy{
+        font-size: 0.8rem!important;
     }
 
 
@@ -768,53 +784,30 @@
         height: 75%;
     }
 
-
+    span.footer-span, .contactt.icon{
+        font-size: 0.7rem!important;
+    }
 
 
 }
 
 
 @media (max-width:300px) {
-    .part22{
-        margin-left: 28vw;
-    }
-    .logo-img {
-        width: 80%;
-    }
-
-    .footer ul{
-        margin-left: 4%;
-    }
-
-    .icones {
-        width: 8vw;
-        height: 8vw;
-    }
-
-    .social .footer-a {
-
-        height: 40px;
-        width: 40px;
-        border-radius: 100%;
-        background-color: #F8F5E6;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        margin: 10px 10px 10px 0px;
-        color: #050727;
+    
+    .copy{
+        font-size: 0.6rem!important;
     }
 
     .footer-contact {
         margin-top: 10px;
         width: 100%;
     }
-
-
-    .icones {
-        width: 70%;
-        height: 75%;
+    .input-field{
+        width: 170px;
+        height:40px;
+        font-size: 12px;
     }
+
+
 
 }

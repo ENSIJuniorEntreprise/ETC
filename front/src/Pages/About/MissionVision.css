@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #011E4A;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.containervs {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vispic {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    width: 80%; 
+    max-width: 1200px;
+}
+
+.rect2, .rect3 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rect2 img, .rect3 img {
+    width: auto;
+    height: 180px; 
+    max-height: 100%; 
+    border-radius: 20px;
+    object-fit: cover; 
+}
+
+.textMission, .text2Vision {
+    flex: 1;
+    border: 3.5px solid #16A2C5;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box; /* Inclut le padding et la bordure dans les dimensions */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 180px; 
+
+}
+
+.textMission h1, .text2Vision h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color : white;
+}
+
+.textMission p, .text2Vision p {
+    font-size: 1.2rem;
+    margin: 0;
+    color : white;
+
+}
+
+@media (max-width: 960px) {
+    .textMission h1, .text2Vision h1 {
+        font-size: 1.7rem;
+    }
+    .textMission p, .text2Vision p {
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .vispic {
+        width: 90%; 
+    }
+
+}
+
+@media (max-width: 650px) {
+    .textMission h1, .text2Vision h1 {
+        font-size: 1.4rem;
+    }
+    .textMission p, .text2Vision p {
+        font-size: 0.8rem;
+    }
+
+    .rect2 img, .rect3 img {
+        width: auto;
+        height: 150px; 
+        max-height: 100%; 
+        border-radius: 20px;
+        object-fit: cover; 
+    }
+    .textMission, .text2Vision{
+        height: 150px; 
+
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .textMission, .text2Vision {
+        height: 150px;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .textMission, .text2Vision{
+        height: 120px; 
+        margin: inherit;
+        padding: 2vw;
+
+    }
+    .rect2 img, .rect3 img {
+        height: 120px; 
+    }
+
+    .textMission, .text2Vision {
+        border: 2px solid #16A2C5;
+    }
+    .textMission h1, .text2Vision h1 {
+        font-size: 1.2rem;
+    }
+    .textMission p, .text2Vision p {
+        font-size: 0.65rem;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .textMission, .text2Vision{
+        height: 100px; 
+        margin: inherit;
+        padding: 2vw;
+
+    }
+    .rect2 img, .rect3 img {
+        height: 100px; 
+    }
+
+    .textMission h1, .text2Vision h1 {
+        font-size: 0.9rem;
+    }
+    .textMission p, .text2Vision p {
+        font-size: 0.55rem;
+    }
+
+    .containervs {
+
+        margin-top: 10px;
+    }
+}

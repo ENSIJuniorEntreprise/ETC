@@ -84,18 +84,19 @@ function Footer() {
 
       </div>
 
-      <div className="footerPart2">
+      <div className="footer_container footer_container1">
       <div className="social">
             <a className="footer-a" href="https://www.facebook.com/ENSI.Junior.Entreprise">
-              <FaFacebookF size={"40px"} className="icones" />
+              <FaFacebookF size={"35px"} className="icones" />
             </a>
             <a className="footer-a" href="https://www.instagram.com/ensijunior/">
-              <BsInstagram size={"40px"} className="icones" />
+              <BsInstagram size={"35px"} className="icones" />
             </a>
             <a className="footer-a" href="https://www.linkedin.com/company/ensi-junior-entreprise/">
-              <BsLinkedin size={"40px"} className="icones" />
+              <BsLinkedin size={"35px"} className="icones" />
             </a>
           </div>
+
 
       <div className="newsletter">
          <input type="text" placeholder="Subscribe to our newsletter" className="input-field" value={email} onChange={(e) => setEmail(e.target.value)} />
