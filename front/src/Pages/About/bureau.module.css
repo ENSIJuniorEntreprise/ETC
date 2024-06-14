@@ -1,55 +1,44 @@
-/*for positions*/
-.positions1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 1.5vw;
-    gap : 0.25vw;
+
+.positionBEX{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 50% 50%;
+  gap:0% 2%;
+  justify-content: center;
 }
-.positions2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-left: 1.5vw;
-  align-items: center;
-  gap : 0vw;
+@media(max-width:1200px){
+  .positionBEX{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 50% 50%;
+    gap:0% 2%;
+    justify-content: center;
+  }
 }
-.position img{
-  width : 20vw;
-}
-.position h3, .position h4{
-  font-size: 2vw;
-  text-align: center;
-  color: #FFFFFF;
-  margin-top: 0.5vw;
-}
-.position p{
-  margin-top: -2vw;
-  color:#16A2C5;
-  font-size: 2vw;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 0.5vw;
-}
-.containerb{
-  display: flex;
-  flex-direction: column;
-  gap: 6vw;
-}
-.containerbresp{
-  display:none;
+@media(max-width:700px){
+  .positionBEX{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 33% 33% 33%;
+    gap:0% 2%;
+    justify-content: center;
+  }
 }
 
-@media (max-width:800px){
-  .containerbresp{
-    display: flex;
-    flex-direction: column;
-    gap: 4vw;
+@media(max-width:500px){
+  .positionBEX{
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap:0% 0%;
   }
-  .containerb{
-    display:none;
-  }
-  .position img{
-    width : 30vw;
+}
+
+@media(max-width:300px){
+  .positionBEX{
+    grid-template-columns: 50% 50%;
+
   }
 }
