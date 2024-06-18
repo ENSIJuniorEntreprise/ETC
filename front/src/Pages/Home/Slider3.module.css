@@ -18,14 +18,25 @@
 .im {
     width: 80%;
     margin-left: 10%; 
-    height: 280px;
+    height: 290px;
     margin-top: 10px; 
     object-fit: cover; 
 }
-@media (max-width: 350px) {
+@media (max-width: 1200px) {
     .im {
-        width: 99%;
-        margin-left: 0%; 
+        width: 90%;
+        margin-left: 5%; 
+        height: 260px;
+        margin-top: 20px; 
+        object-fit: cover; 
+    }
+  }
+
+
+@media (max-width: 450px) {
+    .im {
+        width: 90%;
+        margin-left: 5%; 
         height: 260px;
         margin-top: 20px; 
         object-fit: cover; 

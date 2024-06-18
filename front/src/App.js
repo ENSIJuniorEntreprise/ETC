@@ -11,6 +11,7 @@ import Loader from "./Components/Loader/Loader";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./App.css"
+import ArticleDashboard from "./Components/Loader/components/ArticleDashboard/ArticleDashboard";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/article" element={<Article />} />
         <Route path="/services" element={<Services />} />
         <Route path="/Loader" element={<Loader />} />
+        <Route path="/Dash" element={<ArticleDashboard />} />
         <Route path="*" element={<div>404 not found</div>} />
       </Routes>
       <Footer />

@@ -1,4 +1,4 @@
-const Article = require('./articleModel');
+const Article = require('./../Models/articleModel');
 
 // Fonctions de contrôleur pour les articles
 exports.getAllArticles = async (req, res) => {

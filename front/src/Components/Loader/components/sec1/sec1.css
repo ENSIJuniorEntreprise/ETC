@@ -3,38 +3,40 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4%;
     text-align: center;
     height: auto;
+    gap:30px;
 }
 #imageload{
     width: 80%;
 }
 #imageload img{
-    width: 100%;
+    width: 80%;
 }
 #sec11{
     padding-top: 1%;
     min-width: 300px;
+    padding-bottom:30px;
+
 }
 .tex{
     display: inline;
     font-family: ink free;
-    font-size: 3vw;
+    font-size: 2rem;
     line-height: 1.2;
     color: rgba(255, 255, 255, 1);
 }
 #lead{
     display: inline;
     font-family: ink free;
-    font-size: 3vw;
+    font-size: 2rem;
     line-height: 1.2;
     color: rgba(252, 150, 1, 1);
 }
 #jun{
     display: inline;
     font-family: ink free;
-    font-size: 3vw;
+    font-size: 2rem;
     line-height: 1.2;
     color: rgba(22, 162, 197, 1);
 
@@ -42,6 +44,13 @@
 @media screen and (max-width: 600px) {
     .tex, #lead, #jun {
       font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .tex, #lead, #jun {
+      font-size: 17px;
     }
     
 }

@@ -17,9 +17,7 @@
     position: relative;
     left: 20px;
 } */
-.hor3{
-   margin-left: 15px;
-}
+
 
 
 
@@ -54,9 +52,8 @@
     .cardcont{
         display: flex;
         flex-direction: column;
-        gap:10px;
         margin-left: 10%;
-        gap:15px;
+        gap:30px;
 
     }
   }
@@ -72,9 +69,7 @@
     }
   }
   
-  .hor1{
-    margin-left: 1.5px; 
- }
+
  .card2container{
   display: flex;
   flex-direction: row;
@@ -159,33 +154,11 @@
     
   }
 }
-@media(max-width:530px){
-  .cont{
-    overflow: hidden;
-    padding: 3%;
-    
-  }
-}
-@media(max-width:460px){
-  .cont{
-    overflow: hidden;
-    padding: 1.5%;
-    
-  }
 
-}
-@media(max-width:325px){
-  .cont{
-    overflow: hidden;
-    padding: 0.7%;
-    
-  }
 
-}
 
-.hor3{
-  margin-left: 15px;
-}
+
+
 @media(max-width:678px){
   .hor3{
     margin-left: 1.5px;

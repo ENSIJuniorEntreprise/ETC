@@ -1,70 +1,85 @@
 .container{
- width:480px;
- height: 590px;
+ width:30vw;
+ height: auto;
  border: solid 4px rgba(22, 162, 197, 1);
  border-radius: 12px;
  display: flex;
  flex-direction: column;
+ padding-bottom: 20px;
+ margin-top:-15px;
  
  
 }
 .Image{
-    padding: 20px;
+    padding: 3%;
+    height: 20vw;
+    object-fit: cover;
     
 
 }
 .titre{
     font-weight: 800;
-    font-size: 35px;
-    line-height: 58.51px;
+    font-size: 2rem;
     align-items: center;
     color: white;
     text-align: center;
+
     
 }
 .para{
     font-weight: 400;
-    font-size: 19px;
-    line-height: 29.26px;
+    font-size: 1.2rem;
     color: white;
-    padding-left: 20px;
-    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+
 
 }
 .Bouton{
-    width: 200px;
-    height: 50px;
+    padding: 1% 2%;
     background-color:  rgba(22, 162, 197, 1);
     color: rgba(1, 30, 74, 1);
-    align-self: center;
-    margin-top: 20px;
+    align-self: end;
     font-weight: 700;
-    font-size: 29px;
-    line-height: 39.01px;
+    font-size: 1.3rem;
     border-radius: 5px;
     text-align: center;
+    margin-right: 5%;
 
     
 }
 
+.Bouton:hover {
+    background-color: #24acd1;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+  }
+
 @media(max-width:1100px){
     .container{
         width:40vw;
-        height: 590px;
        
        }
+       .Image{
+        height: 30vw;
+        
+    
+    }
 }
 
 @media(max-width:1000px){
     .container{
-        width:40vw;
-        height: 530px;
+        width:37vw;
        
        }
+       .Image{
+        height: 30vw;
+        
+    
+    }
        .titre{
         font-weight: 800;
-        font-size: 31px;
-        line-height: 58.51px;
+        font-size: 1.8rem;
         align-items: center;
         color: white;
         
@@ -73,109 +88,73 @@
     }
     .para{
         font-weight: 400;
-        font-size: 18px;
-        line-height: 29.26px;
+        font-size: 1rem;
+        line-height: initial;
         color: white;
         padding-left: 1.5%;
         margin-top: 5px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .Bouton{
-        width: 45%;
-        height: 50px;
-        background-color:  rgba(22, 162, 197, 1);
-        color: rgba(1, 30, 74, 1);
-        align-self: center;
-        margin-top: 5px;
-        font-weight: 700;
-        font-size: 23px;
-        line-height: 0px;
-        border-radius: 5px;
-        text-align: center;
-        
+   
+}
+
+@media(max-width:900px){
+    .container{
+        width:37vw;
+        padding-bottom: 10px;
+       
+       }
+       .titre{
+        font-size: 1.6rem;
+   
     }
+    .para{
+        font-size: 0.9rem;
+        margin-bottom: 2%;
+    }
+    .Bouton{
+        font-size: 1rem;
+        padding: 1% 3%;
+    }
+   
 }
 
 @media(max-width:800px){
     .container{
-        width:40vw;
-        height: 480px;
+        width:42vw;
        
        }
        .titre{
-        font-weight: 800;
-        font-size: 3.75vw;
-        line-height: 58.51px;
-        align-items: center;
-        color: white;
-        
-        
-        
+        font-size: 1.4rem;
+        margin-bottom: inherit;
+   
     }
     .para{
-        font-weight: 400;
-        font-size: 2vw;
-        line-height: 23px;
-        color: white;
-        padding-left: 1.5%;
-        margin-top: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-size: 0.9rem;
+        padding-left: 3%;
+        padding-right: 3%;
     }
-    .Bouton{
-        width: 45%;
-        height: 40px;
-        background-color:  rgba(22, 162, 197, 1);
-        color: rgba(1, 30, 74, 1);
-        align-self: center;
-        margin-top: 5px;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 0px;
-        border-radius: 5px;
-        text-align: center;
-        
     }
-}
 
-@media(max-width:730px){
-    .container{
-        width:40vw;
-        height: 450px;
-       
-       }
-       
-}
 
-@media(max-width:660px){
-    .container{
-        width:40vw;
-        height: 430px;
-       
-       }
-       
-}
+
 @media(max-width:600px){
     .container{
-        width:90%;
-        height: 550px;
+        width:80%;
         border: solid 4px rgba(22, 162, 197, 1);
         border-radius: 12px;
         display: flex;
-        flex-direction: column;
-        
-        
+        flex-direction: column;  
+        margin-left: 5%; 
        }
        .Image{
-           padding: 4%;
-           
+        height: 50%;           
        
        }
        .titre{
            font-weight: 800;
            font-size: 31px;
-           line-height: 58.51px;
            align-items: center;
            color: white;
            
@@ -185,35 +164,20 @@
        .para{
            font-weight: 400;
            font-size: 18px;
-           line-height: 29.26px;
            color: white;
            padding-left: 1.5%;
            margin-top: 5px;
            padding-left: 20px;
            padding-right: 20px;
        }
-       .Bouton{
-           width: 45%;
-           height: 50px;
-           background-color:  rgba(22, 162, 197, 1);
-           color: rgba(1, 30, 74, 1);
-           align-self: center;
-           
-           font-weight: 700;
-           font-size: 29px;
-           line-height: 39.01px;
-           border-radius: 5px;
-           text-align: center;
-           
-       }
+
 }
 
 
-@media(max-width:450px){
+@media(max-width:500px){
     .container{
         width:90%;
-        height: 450px;
-             
+        margin-left: 0%;             
        }
        .Image{
            padding: 4%;
@@ -222,8 +186,7 @@
        }
        .titre{
            font-weight: 800;
-           font-size: 25px;
-           line-height: 40px;
+           font-size: 1.7rem;
            align-items: center;
            color: white;
            
@@ -231,8 +194,7 @@
        }
        .para{
            font-weight: 400;
-           font-size: 16px;
-           line-height: 25px;
+           font-size: 1rem;
            color: white;
            padding-left: 10px;
            padding-right: 10px;
@@ -240,54 +202,13 @@
        
        }
        .Bouton{
-           margin-top: 4px;
-           font-size: 20px;
-           height: 40px;
-           line-height: 10px;
+           font-size: 1.1rem;
+           height: 38px;
 
        }
 }
 
 @media(max-width:350px){
-    .container{
-        width:90%;
-        height: 380px;
-             
-       }
-       .Image{
-           padding: 4%;
-           
-       
-       }
-       .titre{
-           font-weight: 800;
-           font-size: 23px;
-           line-height: 40px;
-           align-items: center;
-           color: white;
-           
-           
-       }
-       .para{
-           font-weight: 400;
-           font-size: 14px;
-           line-height: 20px;
-           color: white;
-           padding-left: 10px;
-           padding-right: 10px;
-           margin-top: 5px;
-       
-       }
-       .Bouton{
-           margin-top: 4px;
-           font-size: 17px;
-           height: 35px;
-           line-height: 10px;
-
-       }
-}
-
-@media(max-width:300px){
     .container{
         width:90%;
         height: 350px;
@@ -300,8 +221,42 @@
        }
        .titre{
            font-weight: 800;
+           font-size: 23px;
+           align-items: center;
+           color: white;
+           
+           
+       }
+       .para{
+           font-weight: 400;
+           font-size: 14px;
+           color: white;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin-top: 5px;
+       
+       }
+       .Bouton{
+           font-size: 17px;
+           height: 35px;
+
+       }
+}
+
+@media(max-width:320px){
+    .container{
+        width:90%;
+        height: inherit;
+             
+       }
+       .Image{
+           padding: 4%;
+           
+       
+       }
+       .titre{
+           font-weight: 800;
            font-size: 20px;
-           line-height: 40px;
            align-items: center;
            color: white;
            
@@ -310,7 +265,6 @@
        .para{
            font-weight: 400;
            font-size: 12px;
-           line-height: 18px;
            color: white;
            padding-left: 10px;
            padding-right: 10px;
@@ -319,9 +273,8 @@
        }
        .Bouton{
            margin-top: 3px;
-           font-size: 17px;
-           height: 35px;
-           line-height: 1px;
+           font-size: 15px;
+           height: 30px;
 
        }
 }

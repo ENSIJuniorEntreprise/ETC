@@ -43,7 +43,12 @@
 }
 
 .logo {
-  width: 100%; /* Adjust width as needed */
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin: 0 auto;
+  
 }
 
 .bouton {
@@ -61,6 +66,17 @@
   border: none;
   cursor: pointer;
   white-space: nowrap;
+}
+
+.bouton:hover{
+  background-color: #24acd1;
+  color: #FFFFFF;
+} 
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 100%; /* Adjust width as needed */
+  }
 }
 
 @media (max-width: 768px) {

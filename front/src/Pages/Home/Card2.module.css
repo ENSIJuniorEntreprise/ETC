@@ -81,6 +81,8 @@ scale: 1.03;
     top: 19px;
     font-weight: 700;
     font-size: 18px;
+    z-index: 100000;
+
   }
   @media(max-width:1369px){
     .cardcontainer {

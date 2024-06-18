@@ -1,0 +1,80 @@
+.article-dashboard {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+  
+.article-form {
+    margin-bottom: 20px;
+}
+  
+.article-form .form-group {
+    margin-bottom: 10px;
+}
+  
+.article-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.article-form input, .article-form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+  
+.article-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.article-form button:hover {
+    background-color: #0056b3;
+}
+  
+.article-list {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.article-list .article-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+  
+.article-list .article-item h2 {
+    margin: 0 0 10px 0;
+}
+  
+.article-list .article-item p {
+    margin: 0 0 10px 0;
+}
+  
+.article-list .article-item img {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.article-list .button-group {
+    display: flex;
+    gap: 10px;
+}
+  
+.article-list .button-group button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.article-list .button-group button:hover {
+    background-color: #0056b3;
+}

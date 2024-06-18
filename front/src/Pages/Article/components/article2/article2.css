@@ -1,49 +1,16 @@
-#art2{
-    display: grid;
-    row-gap: 4%;  
-    padding-bottom: 12%;
-    /* position: absolute;
-    top:85%; */
-    position: relative;
-}
-#art21{
-    background-color: rgba(22, 162, 197, 1);
-    color: rgba(255, 255, 255, 1);
-    width: 70%;
-    border: 4px solid rgba(22, 162, 197, 1);
-    margin-left: 15%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top:-100px;
-}
-#art21 p{
-    font-family: Montserrat;
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 85.33px;
-    padding-left: 1%;
-    text-align: center;
-    margin: 0%;
-}
-#art22{
-    border: 4px solid rgba(22, 162, 197, 1);
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 100px;
-    
-}
-.art220{
+
+
+/* .art220{
     color: white;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 30px;
     font-weight: 500;
     line-height: 48.76px;
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
-}
-#date{
+} */
+/* #date{
     color:rgba(157, 157, 155, 1);
     font-family: Roboto;
     font-size: 36px;
@@ -51,8 +18,8 @@
     line-height: 42.19px;
     text-align: left;
     padding-left: 2%;
-}
-#art23{
+} */
+/* #art23{
     background-color:rgba(22, 162, 197, 1) ;
     width: 15%;
     padding-top: 1%;
@@ -62,12 +29,12 @@
 #art23 a{
     text-decoration: none;
     color: rgba(1, 30, 74, 1);
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 28px;
     font-weight: 700;
     line-height: 34.13px;
     text-align: center;
-}
+}  */
 /* @media screen and (max-width: 768px) {
     #art2{
         display: grid;
@@ -108,22 +75,3 @@
     }
   } */
 
-  @media (max-width:1400px){
-    #art21{
-        
-        width: 90%;
-        margin-left: 5%;
-
-    }
-
-    #art21 p{
-        
-        font-size:4vw;
-
-    }
-    #art22{
-        width: 90%;
-        margin-left: 5%;
-        
-    }
-  }

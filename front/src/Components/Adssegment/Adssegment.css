@@ -7,9 +7,14 @@
 .slider {
     position: relative;
     width: 84vw;
-    height: 350px;
+    height: 400px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+
   
   .slide {
     display: none;
@@ -23,8 +28,8 @@
   .slider img {
     width: 100%;
     height: auto;
-    height :350px;
     object-fit: cover;
+
   }
   
   .dots {
@@ -45,4 +50,32 @@
   .dot.active {
     background: #16A2C5;
   }
-  
+
+
+  @media(max-width:700px){
+    .slider {
+      width: 90vw;
+    }
+  }
+
+  @media(max-width:600px){
+
+  .slider {
+    height: 250px;
+  }
+  }
+
+  @media(max-width:400px){
+
+    .slider {
+      height: 200px;
+    }
+    }
+
+    @media(max-width:300px){
+
+      .slider {
+        height: 150px;
+      }
+      }
+

@@ -1,3 +1,266 @@
 #article{
     background-color: rgba(1, 30, 74, 1);
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #011E4A;
+    margin: 0;
+    font-family: "Montserrat";
+    color: white;
+}
+.Articledivpic {
+    width: 100%;
+    max-width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    background-size: cover; 
+    
+}
+
+.Articlebox h1, .Articlebox p{
+    color: #FFFFFF!important;
+
+}
+
+.Articlebox h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 10px; 
+    display: inline-block; 
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+}
+
+
+
+
+
+.Articleflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    margin-top: -8vh;
+    gap:5vh;
+    overflow-x: hidden;
+    padding-bottom: 1vw;
+}
+.Articlebox{
+    z-index: 2;
+    background-color: #16A2C5;
+    width: 80vw;
+    padding: 1vh;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    
+}
+
+.Articlebox p{
+font-size: 1.2rem;}
+
+
+#art22{
+    border: 4px solid rgba(22, 162, 197, 1);
+    width: 80vw;
+    
+}
+
+.art220{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* line-height: 48.76px; */
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#date{
+    color:rgba(157, 157, 155, 1);
+    font-family: "Roboto";
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 42.19px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+#art23{
+    background-color:rgba(22, 162, 197, 1) ;
+    width: 20%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+
+
+}
+#art23{
+    text-decoration: none;
+    color: rgba(1, 30, 74, 1);
+    font-family: "Montserrat";
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 34.13px;
+    text-align: center;
+} 
+
+#art23:hover{
+    background-color: #24acd1;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+} 
+
+#art23 a:hover{
+    background-color: #24acd1;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+  }
+
+@media(max-width:1045px){
+    
+    .Articlebox p{
+        font-size: 1rem;}
+        
+}
+
+@media(max-width:900px){
+    .Articlebox{
+        width: 90vw;
+        padding: 1vh;
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        
+    }
+    .Articlebox h1 {
+        font-size: 2.5rem;
+    }
+    #art22{
+        width: 90vw;
+        
+    }
+    #art23{
+        margin-left: 5%;
+
+    }
+    #art23{
+        font-size: 1.4rem;
+    }
+    .art220{
+ 
+        font-size: 1.2rem;
+
+    }
+    #date{
+   
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+@media(max-width:700px){
+    
+  
+    
+    .Articledivpic {
+        background-size: cover 500px;
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .Articlebox{
+        padding-bottom: 1%;
+        width: 90vw;
+        
+    }
+    .Articlebox h1 {
+        font-size: 2rem;
+    }
+    #art23{
+        width: 30%;   
+    }
+      
+    
+}
+
+@media(max-width:600px){
+   
+    .Articlebox h1 {
+        font-size: 1.7rem;
+    }
+    .Articleflex{
+        margin-top: -7vh;
+    }
+    #art23{
+        width: 40%;   
+    }
+    .art220{
+ 
+        font-size: 1rem;
+
+    }
+    #art23{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:400px){
+    .Articledivpic {
+        background-size: cover 500px;
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-position: center;
+    }
+
+    .Articlebox p{
+        font-size: 0.8rem;}
+
+        .Articlebox{
+            width: 90%;
+            padding: 1vh;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2vw;
+            padding-bottom: 1%;
+
+            
+        }
+        
+        .Articlebox h1 {
+            font-size: 1.4rem;
+        }
+        .Articleflex{
+            margin-top: -6vh;
+        }
+}
+@media(max-width:320px){
+        .Articlebox h1 {
+            font-size: 1.2rem;
+        }
+        #art23{
+            font-size: 1rem;
+        }
+        .art220{
+ 
+            font-size: 0.9rem;
+    
+        }
+}

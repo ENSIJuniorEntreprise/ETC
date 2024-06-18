@@ -2,15 +2,18 @@
 .articlenews{
     /* min-height: 25vh; */
     width: 80vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 65%;
     border: #16A2C5 solid 3px;
     border-radius: 17px;
     padding: 7px;
     padding-top: 0px;
     padding-bottom: 3px;
-    padding-right: 3%; 
-    gap:2vw;
+    gap:4%;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+
 }
 .articlenews div h2, .articlenews div p {
     color: #FFFFFF!important;
@@ -22,7 +25,8 @@
     padding-top:5px;
     padding-bottom: 5px;
     border-radius: 10px;
-    max-width: 29%;
+    width:100%;
+    height: 100%;
     object-fit: cover;
 }
 .articlenews hr{
@@ -35,16 +39,22 @@
     color: grey;
     font-size: 0.9rem;
 }
-.articlenews p{
+.articlenews p {
     font-size: 1.1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
 .articlenews button{
     background-color: #16A2C5;
     color: #011E4A;
     font-size: 1.3rem;
     border: 0px;
     font-weight: bold;
-    padding: 1%;
+    padding: 3px;
     margin-bottom: 5px;
 }
 .articlenews .btncontainer{
@@ -66,6 +76,22 @@
 }
 @media screen and (max-width:1000px) and (min-width:701px) {
     .articlenews{
+        /* min-height: 25vh; */
+        width: 80vw;
+        display: flex;
+        border: #16A2C5 solid 3px;
+        border-radius: 17px;
+        padding: 7px;
+        padding-top: 0px;
+        padding-bottom: 3px;
+        padding-right: 1%; 
+        gap:2vw;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .articlenews{
         display: block;
         padding: min(5%,10px);
     }
@@ -77,3 +103,34 @@
     }
     
 }
+
+@media(max-width:500px){
+    .articlenews p {
+        font-size: 0.9rem;
+    }
+    .articlenews div h2{
+        font-size: 1.3rem;
+    }
+    .articlenews button{
+        font-size: 1rem;
+        padding: 1%;
+    }
+}
+
+@media(max-width:400px){
+    .articlenews{
+        width: 90vw;
+
+    }
+}
+
+@media(max-width:320px){
+    .articlenews div h2{
+        font-size: 1.1rem;
+    }
+    .articlenews button{
+        font-size: 0.9rem;
+        padding: 1%;
+    }
+}
+

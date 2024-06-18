@@ -84,14 +84,13 @@
 }
 
 #section202 button:hover {
-    background-color: #24acd1;
+    background-color: #29bde6;
     color: #FFFFFF;
-    transform: translateY(-2px);
+    top:86%;
   }
-  #section202 button a:hover {
-    background-color: #24acd1;
+  #section202 button:hover a {
     color: #FFFFFF;
-    transform: translateY(-2px);
+    transform: translateY(-2px); 
   }
 
 #section203{

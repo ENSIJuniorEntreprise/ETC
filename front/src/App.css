@@ -1,3 +1,13 @@
 body{
     background-color: #011E4A;
 }
+
+.slick-dots li button:before {
+    color: aqua !important;
+    font-size: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #16A2C5 !important;
+}

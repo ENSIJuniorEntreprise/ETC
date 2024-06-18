@@ -28,7 +28,7 @@ function MultipleItems() {
         slidesToScroll: 3,
         autoplay: true,  
         pauseOnHover: false,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 10000,
         arrows: false,
         responsive: [
             {
