@@ -63,7 +63,7 @@ function Home() {
       <br></br> 
       <div className={style.cardcont}>
         <Card source={image2} title="Système embarqué" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."></Card>
-        <Card source={image2} title="Système embarqué" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."></Card>
+        <Card source={image2} title="Système énergétique" paragraphe="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."></Card>
       </div>
       <br></br> 
       <br></br> 
